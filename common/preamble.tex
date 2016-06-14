@@ -11,6 +11,9 @@
 
 % Enables use of links, and adds ToC for your PDF-reader
 \usepackage{hyperref}
+% A small macro for inserting clickable email adresses, e.g.,
+% \email{best@fredagscafeen.dk}
+\newcommand*{\email}[1]{\href{mailto:#1}{\nolinkurl{#1}}}
 
 % Adding visible TODO's using \todo
 \usepackage[obeyFinal]{todonotes}
