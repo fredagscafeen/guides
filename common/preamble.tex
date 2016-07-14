@@ -1,2 +1,25 @@
 \documentclass{article}
+% Ability to write input files using utf8
 \usepackage[utf8]{inputenc}
+
+% Proper font, æ, ø and å becomes copy/paste and searchable
+\usepackage[T1]{fontenc}
+
+% Enable \includegraphics, so that images can be included
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.pdf, .png, .jpg, .PDF, .PNG, .JPG}
+
+% Enables use of links, and adds ToC for your PDF-reader
+\usepackage{hyperref}
+% A small macro for inserting clickable email adresses, e.g.,
+% \email{best@fredagscafeen.dk}
+\newcommand*{\email}[1]{\href{mailto:#1}{\nolinkurl{#1}}}
+
+% Adding visible TODO's using \todo
+\usepackage[obeyFinal]{todonotes}
+
+% Better kerning etc.
+\usepackage{microtype}
+
+% Hyphenation for Danish words etc.
+\usepackage[danish]{babel}
