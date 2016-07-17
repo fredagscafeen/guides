@@ -23,3 +23,13 @@
 
 % Hyphenation for Danish words etc.
 \usepackage[danish]{babel}
+
+% Macros for common words, so that we can format them fancily. xspace
+% inserts spaces when needed based on context.
+\usepackage{xspace}
+
+\newcommand*{\fotex}{F%
+\kern -.25em%
+{\raisebox{-.215em}{Ø}}%  % -.215em makes 2 Es match
+\kern -.25em%
+\TeX\xspace}
