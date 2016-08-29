@@ -25,6 +25,24 @@
 % Hyphenation for Danish words etc.
 \usepackage[danish]{babel}
 
+% Danish words for chapter, section, etc.
+\addto\extrasdanish{%
+  \renewcommand{\figureautorefname}{Figur}%
+  \renewcommand{\tableautorefname}{Tabel}%
+  \renewcommand{\partautorefname}{Del}%
+  \renewcommand{\appendixautorefname}{Bilag}%
+  \renewcommand{\Itemautorefname}{punkt}%
+  \renewcommand{\chapterautorefname}{kapitel}%
+  \renewcommand{\sectionautorefname}{afsnit}%
+  \renewcommand{\subsectionautorefname}{underafsnit}%
+  \renewcommand{\subsubsectionautorefname}{underunderafsnit}%
+  \renewcommand{\paragraphautorefname}{paragraf}%
+  \renewcommand{\Hfootnoteautorefname}{fodnote}%
+  \renewcommand{\AMSautorefname}{Ligning}%
+  \renewcommand{\theoremautorefname}{Sætning}%
+  \renewcommand{\pageautorefname}{side}%
+}
+
 % Macros for common words, so that we can format them fancily. xspace
 % inserts spaces when needed based on context.
 \usepackage{xspace}
