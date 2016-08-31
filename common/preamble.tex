@@ -23,3 +23,17 @@
 
 % Hyphenation for Danish words etc.
 \usepackage[danish]{babel}
+
+% For conditionals in commands
+\usepackage{xifthen}
+
+\newcommand{\QnA}[3][]{
+\paragraph{#2}
+% Insert label if it is provided in the optional argument
+\ifthenelse{\isempty{#1}}
+  {}
+  {\label{qna:#1}}
+  \begin{itemize}
+    #3
+  \end{itemize}
+}
