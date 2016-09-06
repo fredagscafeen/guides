@@ -22,6 +22,21 @@
 % Better kerning etc.
 \usepackage{microtype}
 
+% To create and control lists (itemize, enumeration, description)
+\usepackage{enumitem}
+
+% A new list environment that has both numbers (as enumeration) and
+% labels (as description)
+\newcounter{enumdescriptioncount}
+\newlist{enumdescription}{description}{1}        % 1 means that it cannot be nested
+\setlist[enumdescription]{%
+  before = {\setcounter{enumdescriptioncount}{0}%
+            \renewcommand*{\theenumdescriptioncount}{\arabic{enumdescriptioncount}}},
+  font = {\bfseries\stepcounter{enumdescriptioncount}{\large \theenumdescriptioncount.}~},
+  align = right,                % Makes the labels end, at the same position
+  itemindent = 6em              % TODO: This can be done better
+}
+
 % Hyphenation for Danish words etc.
 \usepackage[danish]{babel}
 
