@@ -25,6 +25,22 @@
 % Hyphenation for Danish words etc.
 \usepackage{babel}
 
+% For conditionals in commands
+\usepackage{xifthen}
+
+% Macro for Question and answers, troubleshooting etc.
+% The optional argument is a label to ref to. The label will be prefixed with "qna:"
+\newcommand{\QnA}[3][]{
+\paragraph{#2}
+% Insert label if it is provided in the optional argument
+\ifthenelse{\isempty{#1}}
+  {}
+  {\label{qna:#1}}
+  \begin{itemize}
+    #3
+  \end{itemize}
+}
+
 % Macros for common words, so that we can format them fancily. xspace
 % inserts spaces when needed based on context.
 \usepackage{xspace}
