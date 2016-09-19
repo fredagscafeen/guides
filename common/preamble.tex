@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[danish]{article}
 % Ability to write input files using utf8
 \usepackage[utf8]{inputenc}
 
@@ -23,7 +23,7 @@
 \usepackage{microtype}
 
 % Hyphenation for Danish words etc.
-\usepackage[danish]{babel}
+\usepackage{babel}
 
 % Macros for common words, so that we can format them fancily. xspace
 % inserts spaces when needed based on context.
@@ -34,3 +34,11 @@
 {\raisebox{-.215em}{Ø}}%  % -.215em makes 2 Es match
 \kern -.25em%
 \TeX\xspace}
+
+% Better references, automatically uses Danish names. Use \cref
+% instead of \autoref. See package documentation for more details.
+%
+% nameinlink makes the prefix (e.g. "kapitel") a part of the hyperlink
+% (as \autoref does). This might not be a good idea if multiple labels
+% are used in a \cref.
+\usepackage[nameinlink]{cleveref}
