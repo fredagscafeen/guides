@@ -1,63 +1,61 @@
-% !TeX spellcheck = da_DK
-\input{../../common/preamble.tex}
+\documentclass[danish,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[danish]{babel}
+\usepackage{palatino}
+\usepackage{multicol}
+\usepackage[a4paper]{geometry}
+\usepackage{enumitem}
+\usepackage{graphicx}
 
-\title{Pizzaliste}
+\title{Pizza- og burgerliste}
 \date{}
-
-% Reduces margins. This is not in the preamble, as it should not apply
-% to most (if not all) other documents.
-\usepackage[marginparwidth = 10pt]{geometry}
+\author{}
 
 \begin{document}
+
+\pagenumbering{gobble}
+
 \maketitle
 
-
-Alle pizzaer koster 55 kr. Bestil inden kl. 18:00.
-
 \begin{multicols}{2}
-  \begin{enumdescription}
-  \item[Capricciosa] tomat, ost, skinke, champignon
-  \item[Pepperoni] tomat, ost, pepperoni
-  \item[Pepperoni Plus] tomat, ost, pepperoni, ananas, champignon
-  \item[Hawaii] tomat, ost, skinke, ananas
-  \item[Mr. President] tomat, ost, oksekød, skinke, pepperoni, pølser,
-    champignon, bacon
-  \item[Lazio] tomat, ost, kebabkød, pølser, løg, bacon
-  \item[Vegetar] tomat, ost, oliven, løg, peberfrugt, champignon
-  \item[Napoli] tomat, ost, ansjoser, kapers, oliven, hvidløg
-  \item[Salat] tomat, ost, kebabkød, salat, creme fraiche-dressing
-  \item[Tuna] tomat, ost, tun, rejer, muslinger, oliven
-  \item[Artiskok] tomat, ost, skinke, artiskok, peberfrugt, champignon
-  \item[Gorgonzola] tomat, ost, oksekød, gorgonzola, løg, tomatstykker
-  \item[Olivia] tomat, ost, oksekød, pepperoni, løg, peberfrugt
-  \item[Barbecue Kylling] tomat, ost, BBQ-marineret kyllingebryst,
-    løg, bacon
-  \item[Karry Kylling] tomat, ost, kyllingebryst, karry, ananas,
-    champignon
-  \item[Alanya] tomat, ost, kebabkød, oksekød, løg, creme fraiche-dressing
-  \item[Mexican] tomat, ost, oksekød, jalapeños, peberfrugt,
-    tomatstykker, chili
-  \item[Don Pedro] tomat, ost, oksekød, skinke, pølser, bacon
-  \item[Mafiosa] tomat, ost, pepperoni, oliven, jalapeños, løg,
-    peberfrugt
-  \item[AGF] tomat, ost, spaghetti, pepperoni, bolognese, ananas
-  \item[Super] tomat, ost, oksefilet, gorgonzola, champignon
-  \item[Juventus] tomat, ost, oksekød, pepperoni, peberfrugt, bacon
-  \item[John Stærk] tomat, ost, skinke, pepperoni, pølser, champignon,
-    bacon, oksefilet, gorgonzola, chili
-  \item[Romana] tomat, mozzarella, stærk italiensk salami, peberfrugt,
-    pesto
-  \item[Al Parma] tomat, mozzarella, lufttørret skinke, oliven, rocula
-  \item[Quattro Stagioni] tomat, mozzarella, lufttørret skinke,
-    oliven, champignon, artiskok, pesto
-  \item[Quatro Fromaggi] tomat, pizzaost, fetaost, mozzarellaost,
-    gorgonzola
-  \end{enumdescription}
+[
+\noindent Alle pizzaer og burgere koster 55 kr. Bestil inden kl. 18.00.
+]
+\subsection*{Pizzaer}
+\begin{enumerate}[label={\large\textbf{\arabic*}.}]
+    \setcounter{enumi}{10}
+    \item \textbf{Margherita} tomat, ost
+    \item \textbf{Capriciossa} tomat, ost, skinke, champignon
+    \item \textbf{Ciliano} tomat, ost, oksekød, pepperoni, champignon
+    \item \textbf{Hawaii} tomat, ost, skinke, ananas
+    \item \textbf{Verona} tomat, ost, kylling, løg, frisk tomat
+    \setcounter{enumi}{14}
+    \item[{\large\textbf{\refstepcounter{enumi}\number\value{enumi}a}}] \textbf{Mama Mia} tomat, ost, oksekød, skinke, champignon, peberfrugt
+    \item \textbf{Roma} tomat, ost, pepperoni, oksekød, bacon, peberfrugt
+    \item \textbf{Regginella} tomat, ost, pepperoni, skinke, løg, peberfrugt
+    \item \textbf{Sicilia} tomat, ost, pepperoni, skinke, pølser, bacon
+    \item \textbf{Palamo} tomat, ost, pepperoni, kebab, pølser, løg
+    \item \textbf{Mario} tomat, ost, kebab, salat, dressing
+    \item \textbf{Delacasa} tomat, ost, kebab, champignon, løg, frisk tomat
+    \item \textbf{Diavolo} tomat, ost, kebab, pepperoni, løg, chili
+    \item \textbf{Pollo} tomat, ost, kylling, skinke, peberfrugt, ananas
+    \item \textbf{Torino} tomat, ost, skinke, pepperoni, oksekød, champignon
+    \item \textbf{Romio} tomat, ost, oksefilet, gorgonzola, løg
+    \item \textbf{Vegetar} tomat, ost, champignon, peberfrugt, løg, majs, frisk tomat
+    \item \textbf{Carne} tomat, ost, oksekød, løg, hvidløg
+\end{enumerate}
+\subsection*{Burgere}
+\begin{enumerate}[label={\large\textbf{\arabic*}.}]
+    \setcounter{enumi}{35}
+    \item \textbf{Hamburger} 150g oksekødsbøf, salat, tomat, syltede agurker, løg, burgerdressing
+    \item \textbf{Cheeseburger}  150g oksekødsbøf, ost, salat, tomat, syltede agurker, løg, burgerdressing
+    \item \textbf{Dobbelt hamburger} 300g oksekødsbøf, salat, tomat, syltede agurker, løg, burgerdressing
+    \item \textbf{Dobbelt cheeseburger} 300g ok\-se\-køds\-bøf, ost, salat, tomat, syltede agurker, løg, burgerdressing
+\end{enumerate}
+
+    \includegraphics[width=0.5\textwidth]{papas.png}
+
 \end{multicols}
 
-\end{document}
 
-%%% Local Variables:
-%%% mode: latex
-%%% TeX-master: t
-%%% End:
+\end{document}
