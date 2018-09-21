@@ -1,0 +1,64 @@
+\documentclass[danish,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[danish]{babel}
+\usepackage{palatino}
+\usepackage{multicol}
+\usepackage[a4paper]{geometry}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+\definecolor{vegigreen}{HTML}{26a65b}
+
+\title{Pizzaliste}
+\date{\vspace{-10ex}}
+\author{\vspace{-10ex}}
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+\maketitle
+
+\begin{center}
+    \includegraphics[width=0.5\textwidth]{logo.png}
+\end{center}
+
+\begin{multicols}{2}
+[
+\noindent Alle pizzaer koster 60 kr. Bestil inden kl. 17.00.
+]
+\subsection*{Pizzaer}
+\begin{enumerate}[label={\large\textbf{\arabic*}.}]
+    \setcounter{enumi}{0}
+    \item \textbf{\textcolor{vegigreen}{Margherita}} Tomat, ost
+    \item \textbf{Manzo} Tomat, ost, oksekød, pepperoni, løg
+    \item \textbf{Pollo} Tomat, ost, kylling, bacon, peberfrugt 
+    \item \textbf{Capione} Tomat, ost, skinke, pepperoni, champignon
+    \item \textbf{Expresso} Tomat, ost, oksekød, løg, champignon 
+    \item[\large\textbf{5a}] \textbf{Danese} Tomat, ost, oksekød, pølser, løg, peberfrugt 
+
+    \item \textbf{\textcolor{vegigreen}{Vegetariana}} Tomat, ost, artiskokker, løg, champignon, peberfrugt, frisk tomat, oliven
+    \item \textbf{Prosciutto} Tomat, ost, skinke, champignon 
+    \item[\large\textbf{7a}] \textbf{Hawaii} Tomat, ost, skinke, ananas 
+    \item \textbf{Marino} Tomat, ost, tunfisk, rejer
+    \item \textbf{Capricciosa} Tomat, ost, skinke, champignon, artiskokker
+    \item \textbf{Diavola} Tomat, ost, oliven, ansjoser, jalapenos, pepperoni, skinke
+    \item \textbf{Italiana} Tomat, ost, kødsauce, løg, champignon 
+    \item \textbf{Salami} Tomat, ost, pepperoni, grøn peber
+    \item \textbf{Romo} Tomat, ost, skinke, rejer, ananas, champignon
+    \item \textbf{Luxus pizza} Tomat, ost, oksefilet, bacon, rejer, peberfrugt, løg, champignon
+    \item \textbf{Super pizza} Tomat, ost, oksekød, skinke, løg, pepperoni, champignon, gorgonzola ost
+    \item \textbf{Napoli} Tomat, ost, oksefilet, gorgonzola ost, frisk tomat, løg
+    \item \textbf{Experssa} Tomat, ost, oksekød, løg, bacon
+    \setcounter{enumi}{18}
+    \item \textbf{Venozolla} Tomat, ost, oksekød, kylling, grøn peber, frisk tomat, pepperoni
+    \item \textbf{Sicilia} Tomat, ost, frisk tomat, løg jalapenos, kebab, peberfrugt
+    \item[\large\textbf{20a}] \textbf{Pizza kebab} Tomat, ost, kebab, løg, salat, dressing
+    \item \textbf{Bella} Tomat, ost, bacon, pepperoni, oksefilet, frisk tomat, løg, peberfrugt
+    \item[\large\textbf{21a}] \textbf{Meat lover} Tomat, ost, pepperoni, bacon, skinke, pølser, oksekød
+\end{enumerate}
+
+\end{multicols}
+
+\end{document}
