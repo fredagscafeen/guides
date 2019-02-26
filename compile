@@ -6,6 +6,7 @@ from subprocess import run
 base_dir = Path(__file__).absolute().parent
 tex_files = [
 	(Path('pizza/list/marselis/main.tex'), 'pizzaliste.pdf'),
+	(Path('pizza/guide/main.tex'), 'pizzaguide.pdf'),
 ]
 
 out_dir = base_dir / 'out'
