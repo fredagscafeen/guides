@@ -1,0 +1,152 @@
+% !TeX spellcheck = da_DK
+\input{../common/preamble.tex}
+
+\title{Kasserer Guide}                        % TODO: Skriv titel
+\date{\today}
+\author{Kristoffer Strube}                       % TODO: Skriv dit navn
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\clearpage
+
+\section{Introduction}
+Du er nu kasserer så du har en række ansvar. Jeg vil i de følgende afsnit beskrive alle dine ansvar. Der er garanteret glemt nogen detaljer, så hvis du finder ud af noget som du ikke fik at vide ved overlevering eller fra denne guide, så kan det være en god idé at opdatere denne guide med det samme.
+
+\section{Artifakter}
+Men før jeg går konkrete opgaver igennem vil jeg gennemgå nogen af de personer, kunder, leverandører og systemer som du har kontakt med.
+\subsection{Personer}
+\subsubsection{Den tidligere kasserer}
+Den tidligere kasserer vil gerne hjælpe, hvis du har problemer med noget som ikke står i denne guide. Så du skal ikke være bange for at skrive til Kristoffer Strube enten på Facebook eller mail \email{i@kristoffer-strube.dk}.
+\subsubsection{Revisoren}
+Vi har i øjeblikket revisor fra \href{https://www.sekr.dk/}{Dit Sekretariat}. Hun hedder Gitte Thomsen og har mailen \email{gt@sekr.dk}. Det hende som i øjeblikket holder styr på vores regnskabssystem \textit{e-conimics} som der vil blive beskrevet nærmere i et senere afsnit. Vi havde fra September 2018 til September 2019 revisoren Bettina også fra \href{https://www.sekr.dk/}{Dit Sekretariat}, men fik Gitte på grund af omrokering af opgaver i deres firma. Bettina kan dog stadig godt finde på at skrive eller tage opgaver for Gitte nogen gange. Her skal det bemærkes at Bettina (højst sandsynligvis) er ordblind, så fortvivl ikke hvis hendes mails kan være svære at forstå.
+\subsubsection{Kassererassistenten}
+Kassererassistenten er endnu et medlem af bestyrelsen. Hans/hendes opgave er at holde styr på kassen, hvor vi har penge i, pengeskabet, krydslisten og den ugentlige opgørelse af Dagens salg. Bare fordi at hans/hendes titel er assistent så skal han/hun ikke tænkes som en assistent.
+\subsection{Kunder}
+Vi har en række kunder som tit lejer vores fadølsanlæg. Det er ikke dit ansvar at have kontakt med dem i forbindelse med udlejninger og salg, men nogen af dem kan have specifikke krav til fakturering (Måden man sender regninger). De fleste kunder er virksomheder som skal have en normal faktura fra \href{https://www.hurtigfaktura.dk/}{hurtigfaktura.dk} hvilket vil blive forklaret senere.\\
+Ud over dem er er andre som er en del af det offentlige system. De vil gerne faktureres gennem det system som hedder EAN. I blandt dem er \textit{Institut for Datalogi}, \textit{CCTD.au.dk}, \textit{AU IT} og \textit{IT Camp for Piger}. Hvordan man fakturere gennem EAN vil også blive forklaret senere.
+
+\subsection{Leverandører}
+Vi har en del leverandører som vi køber chips, øl sodavand, gas, plastikkrus, osv. af. Jeg vil i dette afsnit kort gennemgå dem og der henvises til dette afsnit senere.
+\subsubsection{Aarhus Bryghus}
+Det er dem vi primært får fadøl, gas og plastikkrus fra. De skal betales inden for 8 dage fra at vi modtager dem, så gør det med det samme. I deres fakturaer er hver linje antal*stykpris eksklusiv moms og man kan se det fulde beløb eksklusiv moms i feltet \textit{Momsgrundlag} i bunden og det fulde beløb inklusiv moms i nederste højre hjørne i feltet \textbf{\textit{Beløb}}.
+\subsubsection{Salling Group}
+Salling Group er dem som ejer FøTeX, FøTeX-bageren og Netto. Vi køber chips, almindelige flaskeøl, dåsesodavand og til tider udstyr fra dem. Vi har en aftale hvor vi må bruge op til 15.000 kroner om måneden (Sådan har jeg forstået det) og vi så bliver faktureret for vores forbrug ved slutningen af måneden. Vi plejer at modtage faktura fra dem d. 22 og de skal betales inden for en måned normalvis, men hellere bar gør det med det samme. Hver linje antal*stykpris er i deres fakturaer inklusiv moms. Det kan være nyttigt at vide til forskellige regnskaber og optællinger.
+\subsubsection{One Pint}
+One Pint er dem vi normalvis køber vores specialøl og specialsodavand fra. De skal betales inden for 14 dage, men her kommer der en vigtig detalje \textbf{One Pint trækker selv pengene for fakturaer fra vores konto, så du skal ikke lave overførsler for disse fakturaer.} Hver linje antal*stykspris er i deres fakturaer eksklusiv moms.
+\subsubsection{Det Belgiske Hus}
+Vi bestiller også nogen gange specialøl eller specialle fustager fra Det Belgiske Hus. De skal normalvis betales inden for 15 dage. Hver linje antal*stykpris er i deres fakturaer eksklusiv moms. Summen af disse beløber kan ses i feltet \textit{Subtotal} hvorefter der tillægges moms.
+\subsubsection{Dit Sekretariat}
+Vi betaler for at have revisor. Derfor få vi nogen gange fakturaer fra dem fra mailen post@e-conomic.com. Hver linje antal*stykpris i deres fakturaer er eksklusiv moms.
+\subsubsection{Fødevarestyrelsen}
+Fødevarestyrelsen sender en gang årligt en regning til os for at de spontant tjekker op på at vores bar lever op til de fødevarestandarder der skal være for at vi må servere øl. Det specielle ved dem er at vi modtager vores fakturaer gennem e-Boks. Du har som kasserer adgang til e-Boks erhverv, hvilket vil blive forklaret senere.
+\subsubsection{Andre}
+Dette er blot nogen af dem som er regelmæssige og du vil helt sikkert opleve at du også skal betale fakturaer til andre firmaer end dem jeg har nævnet og husk at betal dem i god tid. Nogen vi specialt har haft problemer med at finde før i tiden er dem der hedder eksempelvis "DK-indløsningsabn. 4. kvt. 2019". Det er dem som vi betaler hver tredje måned for at bruge kortterminalen. \textbf{De trækkes automatisk}, så du skal bare være opmærksom på at finde dem når de kommer i mailen ofte omkring marts, juni, september og december.
+\subsection{Systemer}
+Som kasserer er der nogen systemer som du kommer til at bruge for at kunne lave dit arbejde.
+\subsubsection{Admín siden på Fredagscaféen}
+Hvis du går ind på \href{https://Fredagscafeen.dk}{Fredagscafeen.dk} og logger ind, så skulle du gerne have adgang til en admin side. (Det er sådan noget der bliver lavet automatisk i Django.) De sider som du kommer til at bruge inde på admin siden er \textit{Udlejnings} og \textit{Secrets}.\\
+Secrets siden er blot en oversigt over de forskellige logins du har tilgængelig til forskellige platforme/sider.\\
+Udlejningssiden er en oversigt, hvor udlejninger bliver tilføjet af den udlejningsansvarlige. Når en udlejning er færdig, så skal den person som der står som ansvarlig på udlejning opdatere det faktiske forbrug, da du skal bruge det til at lave faktura som forklares senere.
+\subsubsection{Nem-ID}
+En del af de systemer vi bruger bruger Nem-ID som login. Du skal nogen gange bruge dit private Nem-ID, men du har som kasserer også et virksomheds Nem-ID som blandt andet bruges til e-Boks.
+\subsubsection{Netbank}
+Vi har bank ved \href{https://www.sparkron.dk/}{Sparekassen Kronjylland}. På deres hjemmeside kan du logge på deres netbank med dit private Nem-ID. I vores bank har vi 3 konti \textit{Konto med MasterCard}, \textit{Sikkerhedskonto} og \textit{Foreningskonto}.\\ Kontoen med MasterCard er den som er tilknyttet vores kort og der skal helst altid stå 3-4.000 kroner så kortet kan bruges til at købe udstyr og mad inden for kort varsel.\\
+Sikkerhedskontoen skulle der gerne stå en del penge på (i skrivende stund 23.374,16 kr.). Kontoen bliver i øjeblikket brugt som en sikkerhed for Krydslisten. Da vi i øjeblikket har omkring 20.000,00 kr som folk har til at stå på vores krydsliste. Vi vil derfor altid have penge til at betale folk tilbage, hvis vi på et tidspunkt er nødt til at lukke.\\
+\subsubsection{e-Boks}
+Vi har som virksomhed også en e-Boks. Du kan logge ind på den med dit virksomheds Nem-ID som du gerne skulle have. Det primære vi får i vores e-Boks er beskeder om at du har lavet en overførsel, så den del skal du bare ignorere. Ud over det får vi også beskeder fra banken herigennem og fakturaer fra fødevarestyrelsen.
+\subsubsection{Digital Ocean}
+Digital Ocean er den platform vi har vores hjemmeside hostet ved. Det betaler vi i øvrigt 12 dollars for hver måned. Jeg syntes at det var træls at et medlem af bestyrelsen skulle ligge ud for den overførsel hver måned, da vi ikke kan bruge vores kort til det, da det er Debit. Derfor besluttede jeg at vi i stedet laver en forudbetalinger, hvor vi sætter eksempelvil 100 dollars in på en Digital Ocean konto som ligger på deres platform. Hvis man overføre 100 dollars gennem Paypal så holder det i hvert fald i et halvt år, men det er en god idé at tjekke derinde en gang imellem alligevel.
+\subsubsection{hurtigfaktura.dk}
+Vi bruger \href{https://www.hurtigfaktura.dk/}{hurtigfaktura.dk} til at lave fakturaer. Du kan spørge den tidligere kasserer eller formand for at få koden til den konto vi har i forvejen. Når man er logget ind kan man se alle (stort set alle) de fakturaer vi har lavet i forvejen. Man burde dog stadig gemme alle sine fakturaer lokalt også da hurtigfaktura ikke kan garantere at de vil opbevare vores fakturaer for evigt.
+\subsubsection{EAN}
+Nogen gange skal vi fakturere til offentlige institutioner hvilket skal ske gennem EAN. For at komme ind på siden plejer jeg at Google "EAN faktura", hvor man så kommer til en side, hvor man kan trykke \textbf{Start} for at lave en EAN Faktura. Her skal man logge ind med virksomheds Nem-ID. \textbf{Husk at EAN kun er for offentlige institutioner}
+
+\section{Betale regninger}
+Når du modtager en faktura (regning) fra en virksomhed, så skal du betale regningen inden for den dato de har specificeret, hvilket kunne være alt fra 8 dage til en måned. Vi får de fleste fakturaer på mail, men vær opmærksom på at vi også kan modtage fakturaer gennem e-Boks og via brev i vores brevkasse på instituttet. 
+\begin{enumerate}
+    \item Første trin er at betale regningen. Det gøres inde i netbank enten som en overførsel eller som indbetalingskort. Når du overfører vil den som standard vælge at du overføre fra \textit{Konto med MasterCard}. Du skal i stedet vælge at overføre fra \textit{Foreningskonto}'en. Husk at beløbet som skal overføres er det beløb som er specificeret på fakturaen som værende inklusiv moms. Når man laver en overførsel kan skrive en tekst på til en selv og til den man overfører til. Det er normal kutyme at man skriver hvem det er fra og fakturanummer på sin egen tekst eksempelvis \textit{"Aarhus Bryghus 37660"}. Det er ligeledes normal kutyme at man skriver fakturanummer på modtagerens tekst eksempelvis \textit{"Faktura 37660"}. \textbf{Husk at One Pint og indløsningsabn. selv trækker deres beløb, så du skal overføre for de fakturaer.} Hvis du kommer til at overføre alligevel, så vil One Pint normalvis modregne beløbet i en fremtidig faktura eller sende pengene tilbage med det samme.
+    \item Næste trin er at sende fakturaen til regnskabsystemet. Det gøres ved at vedhæfte filen til en mail som du sender til \email{454bilag1287232@e-conomic.dk}. Revisoren kan ikke se den tekst man skriver i selve mail, så altså kun vedhæftninger og emnet på mailen. I emnet skriver vi hvad der er vedhæftet i grove træk. Det kunne eksempelvis være "Indkøb til salg i baren" eller "Nets transaktionsafgift 2019". Husk at du også skal sende fakturaer for de virksomheder/institutioner som selv trækker penge.
+    \item Til sidst så skal du på en måde selv holde styr på at du har taget dig af denne faktura/mail. Det gør jeg ved at jeg har oprettet en mappe i min mail-klient som hedder \textit{faktura modtaget}, hvor jeg ligger den oprindelige mail med fakturaen i og en mappe som hedder \textit{faktura sendt}, hvor jeg ligger den sendte mail til e-conomics i.
+\end{enumerate}
+
+\section{Sende regninger}
+Vi udlejer nogen gange vores fadølsanlæg eller sælger fadølsbilletter til\\ foreninger/institutioner/virksomheder/privatpersoner.
+\begin{enumerate}
+    \item Du skal først finde ud af hvor meget der er blevet solgt og til hvilken pris. Ved udlejning kan man finde det faktiske forbrug inde på \textit{Udlejning} siden på admin siden. Det vil ofte være fustager som vi har solgt i forbindelse med en udlejning. Her er det vigtigt at vide at vi kræver forskellige priser alt efter om det er intern udlejning eller ekstern udlejning. Nogen gange skriver de det på inde i systemet, men erfaring viser at dem der opretter dem i systemet ofte ikke ved om det er internt eller eksternt. Internt er, hvis instituttet lejer anlægget herunder Datalogisk Institut eller CCDT (IKKE AU IT) eller hvis et bestyrelsesmedlem eller tidligere bestyrelsesmedlem lejer anlægget. Ud over fustager så skal du snakke med den person som har stået for udlejningen i forhold til hvad de aftalte priser har været. Vi har eksempelvis før solgt sodavand til 5 kroner stykket til institut receptioner. 
+    \item Så skal du lave en faktura. Det gør du for virksomheder som \textit{Alexandre Instituttet}, \textit{Netcompany} eller privatperosner gennem \href{https://www.hurtigfaktura.dk/}{hurtigfaktura.dk} som er en platform der gør det super let at lave fakturaer. Hvis det er en offentlig institution, så skal EAN i stedet bruges til at lave en faktura. Hver faktura har et nummer som da jeg overtog i min periode 2019 startede ved 33 og vi er nu oppe på 70. Det er den samme serie af faktura numre man skal bruge om man laver faktura gennem EAN eller hurtigfaktura. På hurtigfaktura er det lettest blot at kopiere den forrige faktura, så bebeholder den at vi er Sælger (CVR: DK27973647) og den auto-inkrementere fakturanummeret. Det kan være at du skal ændre hvem fakturaen er til, men det er let at hente oplysninger fra det offentlige CVR register ved at finde virksomheden CVR nummer på \href{https://cvr.dk}{cvr.dk} og indtaste det i formularen. Den opdatere dog ikke en lille tekst vi skriver til sidst "Fakturanr. 69 bedes angivet ved bankoverførsel", så den skal man selv opdatere til det næste nummer. Når man laver fakturaen skal man lave en Fakturadato som er den dato, hvor udlejningen/salget skete, Afleveringsdato som er den dato, hvor de får fakturaen eksempelvis over mail og til sidst en Betalingsdato som er hvornår de skal betale inden. Det er næsten samme system i EAN. Jeg har kørt med at Betalingsdato er 3 uger efter Afleveringsdato, men ved EAN overfører de ofte alligevel først efter 4 uger lige meget hvad man skriver. Priserne man skriver i linjerne er uden moms, så selvom at vi sælger en futage ekstra pilsner til 750,00 eksternt, så skal man skrive 600,00 som pris i fakturalinjen. og så vælge at den skal ligge moms til til sidst. Nu når vi er ved det, så sælger vi fustager til 450,00 internt inklusiv moms, hvilket vil sige 360,00 eksklusiv moms. Når du så har udfyldt formularen i hurtigfaktura, så kan du downloade den. Du får ligeledes muligheden for at downloade når du har lavet/sendt fakturaen i EAN, hvilket man skal huske at gøre, fordi man ikke kan få fat i den senere ellers.
+    \item Næste trin er at sende fakturaen til kunden. Hvis der er betalt gennem EAN, så får de automatisk fakturaen og du behøves ikke at sende den til dem over mail også. Hvis fakturaen er lavet på hurtigfaktura, så skal du nu sende en mail til kunden med fakturaen vedhæftet. Mailen du skal skrive til står inde på udlejningssiden. Jeg plejer at udformulere en mail ca. sådan her:\\
+    \\
+    \textbf{Emne: } Faktura for udlejning af Fredagscaféens fadølsanlæg.\\
+    \textbf{Tekst: } Hej Susanne,\\
+    Vedhæftet denne mail er en faktura for da I lejede Fredagscaféens fadølsanlæg d. 25 november.\\
+    Fakturaen bedes betalt inden d. 23 december gerne med fakturanummer 68 noteret.\\
+    Mvh.\\
+    Kristoffer Strube – kasserer i Fredagscaféen.
+    \item Efter at du har sendt fakturaen til kunden, så skal du også sende den til regnskabssystemet ved at sende en mail til \email{454bilag1287232@e-conomic.dk} med fakturaen vedhæftet og en tekst i emnefeltet som specificere salget eksempelvis bruger jeg tit "Salg ved udlejning af bar" eller "Salg ved sponsorbar", hvis det er i forbindelse med en sponsorbar.
+    \item Så skal du i udlejningssiden opdatere at du har sendt fakturaen. Det gøres ved at skrive fakturanummeret ind, den total pris (inklusiv moms), Betalingsdatoen, og ændre status'en til "Regning sendt". Du skal ligeledes tjekke en gang imellem om vi har modtaget beløbet i netbank og opdatere udlejningen til "Betalt".
+\end{enumerate}
+
+\section{Holde vores dankort}
+Det bliver også dig som kasserer der skal holde vores dankort, så folk skal spørge dig før de kan få lov at bruge det. Kortet bruges regelmæssigt til at bestille mad til bestyrelsesmøder.
+
+\section{Tilbagebetale udlæg fra bartendere eller bestyrelsesmedlemmer}
+Nogen gange, så kan folk hverken bruge det købekort vi har tilgængelig til FøTeX og Netto eller få fat i dit dankort for at købe noget. Så er de nødt til selv at lægge ud for et køb med deres eget kort eller kontanter. I disse tilfælde, så skal de have en kvittering med for at de kan få penge igen. Du kan ikke give dem penge, hvis de ikke har en kvittering for det de har købt. Deres køb skal så fyldes ud i vores \textit{Udgiftsbilagskabelon} hvor man kan samle flere bilag for den samme person, hvis en person eksempelvis har lagt ud for meget på en dag. Hvis du kan få dem til selv at udfylde skabelonen, så er det en fordel, da du så skal lave mindre. Det er vigtigt at de kvitteringer de sender er læselige, at hver kvittering er i et billede og at der ikke er købt andet end hvad de skal have penge for på den samme kvittering. Så igen 3 trin.
+\begin{enumerate}
+    \item Få personen som har lagt ud for et indkøb til at udfylde \textit{Udgiftsbilagskabelon}
+    \item Tjek at der er bilag for alt de skal have penge for.
+    \item Lav en overførsel til dem gennem netbank med titel "Udgift udlæg" efterfulgt af personens navn og hvis der er plads hvad der er købt. I modtagerens tekst plejer vi at skrive "Udlæg Fredagscaféen"
+    \item Send den udfyldte \textit{Udgiftsbilagskabelon} vedhæftet en mail til \email{454bilag1287232@e-conomic.dk} sammen med bilagene.
+\end{enumerate}
+
+\section{Lave overblik over foreningens økonomi til hvert bestyrelsesmøde}
+Det er også dit ansvar at give de andre i bestyrelsen et indblik i hvordan økonomien går i foreningen. Jeg plejer at lave en oversigt, hvor jeg summerer hvad vi har købt en for mod hvad vi har solgt for. Her skal man huske at moms er inklusiv i alle de beløb der er for overførsler. Det betyder at hvis der eksempelvis er købt ind for 20.000 kroner og der er solgt for 30.000, så er overskudet ikke 10.000 kroner, men 8.000 kroner. Det er vigtigt at påpege at dette kun er et estimat, da nogen af de overførsler der er ikke er indkøb men blot eksempelvis tilbabegbetalinger eller ting der er købt fra private uden moms.\\
+Det kan også være relevant at lave andre økonomiske udregninger som forberedelse til bestyrelsesmøder. Heriblandt har jeg eksempelvis før udregnet, hvilken konsekvens det ville have, at vi hævede prisen på fadøl og jeg har lavet estimater af hvad resultatet af året ville være.
+
+\section{Halvårlige momsregnskab}
+Hvert halve år skal vi betale moms. I øjeblikket er det vores revisor som laver vores momsregnskab. Du har normalvis henholdsvis indtil midt juli og midt februar til at finde de bilag som revisoren mangler. Det er næsten umuligt at huske at sende alle fakturaer og andre bilag videre til revisoren, så det er en god idé at spørge revisoren i henholdsvis start juli og start januar om hun mangler nogen bilag eller andre ting for at lave momsregnskabet. Når revisoren er færdig med momsregnskabet, så sender revisoren en faktura til dig som du skal lave en overførsel for. Send efterfølgende fakturaen tilbage til \email{454bilag1287232@e-conomic.dk} så det kommer i regnskabssystemet.
+
+\section{Den årlige optælling af lageret}
+En gang årligt skal det tælles op, hvad der er på lageret ved slutningen af året. Idet at vi har en nytårsfest d. 31/12 plejer vi at tælle op d. 1 eller 2. januar, men det er vigtigtste er at der tælles op inden at der bliver købt mere ind eller næste fredag. Når du tæller alle tingene skal du notere hvilket bilag du har aflæst prisen i for hvver ting, så revisoren eller en evt. auditor kan tjekke det. Det er også vigtigt at gøre det klart før du begynder at vælge om du tager prisen for tingen inklusiv moms og så bare summerer op eller om du summerer priserne op eksklusiv moms og så ligger moms til bagefter.\\
+Der er nogen ting som vi tæller og nogen vi ikke gør.
+\begin{itemize}
+    \item Vi tæller normale øl
+    \item Vi tæller flaskepant (og pant for kasserne) fra normale øl
+    \item Vi tæller specialøl
+    \item Vi tæller flaskepant for ikke-tomme specialøl
+    \item Vi tæller fustager
+    \item Vi tæller pant for fustager både fyldte og tomme
+    \item Vi tæller gas
+    \item Vi tæller pant for gas både fyldte og tomme
+    \item Vi tæller alkoholflasker som ikke er åbnede
+    \item Vi tæller chips, men prøver at finde et bilag for dem, hvor vi har købt mange til samme pris.
+\end{itemize}
+Vi tæller ikke flaskepant fra det grå kar eller poser, med dåser i ude i metalgitteret da det er for meget besvær.
+
+\section{Årsregnskabet}
+En gang om året skal der laves et årsregnskab. Det gør revisoren i øjeblikket. Hun mangler måske bilag ligesom til momsregnskabet, så sørg for at spørg hende om hun mangler noget til dette også. Det er også her hun skal bruge optællingen af lageret. Der er nogen forskellige grupper på et årsregnskab som du kan placere forskellige indtægter og udgifter på i løbet af året. For at forstå disse er det en god idé at tage en snak med den tidligere kasserer om hvad der plejer at komme under hvilke grupper i regnskabet.
+
+\section{Drikkevare brugt fra lageret til arrangementer}
+Det er også dit ansvar at holde styr på, hvor meget der bliver brugt fra lageret til forskellige frivillig arrangementer, hvor der bliver givet drikkevarer gratis. Et eksempel er at der tit bliver givet en eller to fustager til Thomas og Tim efter Djurs Sommerland turen eller de drikkevare som bliver brugt til julefrokosten og sommerfesten. Så her skal du have god kontakt til den eventansvarlige. Vi har før lavet denne opgørelse hvert halve år, men det er ikke sikkert at det er nødvendigt oftere end en gang årligt lige til årsregnskabet.
+
+\section{Kontakt med revisoren}
+Ud over den normale kontakt, så kan du også kontakte revisoren, hvis der er noget som du er i tvivl om. Vi har eksempelvis før spurgt om man kan trække moms fra pengene brugt på arrangementer til de frivillige. Det kan man ikke. Hvis de andre i bestyrelsen har spørgsmål omkring økonomi som du ikke selv kan besvare kan du ligeledes spørge revisoren, men husk at du også kan spørge den tidligere kasserer. Det er ligeledes en god idé at skrive til revisoren at du er blevet kasserer, at du ser frem til et godt samarbejde og hvordan hun kan komme i kontakt med dig.
+
+\section{Sørge for at kassererassistenten gør sit arbejde og sende hans/hendes Dagens Salg opgørelser til revisoren}
+Vi har et ark som kassererassistenten skal fylde ud en gang ugentligt efter hver fredagsbar. Her opgører han/hun, hvor mange penge han/hun puttede i kassen før baren, hvor mange penge der var tilbage efterfølgende,l hvor man kontanter der blev brugt på pizza, hvor meget vi fik solgt fra dankort automaten, hvad der blev sat ind på krydslisten og hvor meget der blev brugt fra krydslisten. Han/hun skal ligeledes tælle hele pengeskabet mellem hver vagt for at se at de tal han/hun har noteret går op og på den måde tjekke at der ikke er forsvundet nogen penge fra pengeskabet. Vi har på vores drive alle de tidligere Dagens Salg opgørelser og de bilag som der er aflæst fra for at lave arket. En gang månedligt eller oftere skal Dagens Salg opgørelserne sammen med kvitteringerne for pizza sendes til regnskabssystemet med emnet "Dagens salg" efterfulgt af datoen for fredagen eksempelvis "Dagens salg 2019-12-27". Før du sender dem skal du sikre at man kan læse kvitteringerne og at de tal der står på dem stemmer overens med de noterede tal. Nogen gange mister vi en kvittering for pizza. I disse tilfælde noteres det bare at "kvittering mangler" ud for beløbet, hvis man da kender beløbet. Hvis der mangler en kvittering for afstemning, så har vi ikke nogen måde at kende beløbet på og det kan give misvisende beløber for Dagens Salg den følgende fredag. Det er derfor en god idé at spørge revisoren, hvad det rigtige beløb burde være, hvis dette sker. Man kan også prøve at logge in på Nets's hjemmeside med virksomheds Nem-ID'et hvor man så måske kan gennemskue hvad der er blevet solgt for en fredag, men jeg har endnu ikke forstået siden.
+
+\section{Hente kontanter}
+Nogen gange, så er der ikke flere eller få kontanter tilbage i pengeskabet, da vi betaler for pizza med kontanter og de fleste betaler med kort. Så skal du sammen med kassererassistenten hente penge i banken. Det er lettest at få i den ved Storcenter Nord. Du kan både hæve sedler uden for banken, men nogen gange mangler vi mønter og her skal man ind i banken. Det er en god idé at hente rigeligt med mønter, hvis det bliver nødvendigt, da det koster 50 kroner hver gang vi hæver mønter. Du får en kvittering for at have hævet den skal sendes til regnskabssystemet med et emne som eksempelvis "Hævet kontanter til pengeskabet".
+
+\section{Informere hele bestyrelsen, hvis de skal stoppe med at bruge penge}
+Det kan ske at der pludselig ikke er så mange penge tilbage på vores foreningskonto. Dette er sket omkring omkring en måned efter studiestarten de sidste to år, så det kan eventuelt være en god idé at holde øje med det allerede inden og informere resten af bestyrelsen om det op til studiestarten. Her skal du \textbf{ikke} trække pengene fra vores sikkerhedskonto, men i stedet bede resten af bestyrelsen om at stoppe med at købe ind. Det er en god idé at gøre dette, hvis vi kommer under 15.000 kroner på foreningskontoen.
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
