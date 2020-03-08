@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import shutil
 from pathlib import Path
-from subprocess import run
+from subprocess import run, check_output
 
 base_dir = Path(__file__).absolute().parent
 tex_files = [
@@ -26,7 +26,16 @@ for d in base_dir.iterdir():
 for tex_file, out_name in tex_files:
 	print(f'Compiling {tex_file}')
 
-	d = tex_file.parent
-	run(['latexmk', '-halt-on-error', '-pdf', tex_file.name], cwd=d, check=True)
-	pdf = tex_file.with_suffix('.pdf')
-	shutil.copy(pdf, out_dir / out_name)
+	change_date = check_output(['git', 'log', '-1', '--pretty=format:%as', tex_file], encoding='utf-8').strip()
+
+	contents = tex_file.read_text()
+	new_contents = contents.replace('\\date{\\today}', '\\date{' + change_date + '}')
+
+	try:
+		tex_file.write_text(new_contents)
+
+		run(['latexmk', '-halt-on-error', '-pdf', tex_file.name], cwd=tex_file.parent, check=True)
+		pdf = tex_file.with_suffix('.pdf')
+		shutil.copy(pdf, out_dir / out_name)
+	finally:
+		tex_file.write_text(contents)
