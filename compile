@@ -26,7 +26,7 @@ for d in base_dir.iterdir():
 for tex_file, out_name in tex_files:
 	print(f'Compiling {tex_file}')
 
-	change_date = check_output(['git', 'log', '-1', '--pretty=format:%as', tex_file], encoding='utf-8').strip()
+	change_date = check_output(['git', 'log', '-1', '--pretty=format:%ad', '--date=short', tex_file], encoding='utf-8').strip()
 
 	contents = tex_file.read_text()
 	new_contents = contents.replace('\\date{\\today}', '\\date{' + change_date + '}')
