@@ -1,0 +1,63 @@
+name: Compile & Upload
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+env:
+  RSYNC_LOCATION: ubuntu@fredagscafeen.dk:web/media/guides/
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install latex
+        run: |
+          sudo apt-get update
+          sudo apt-get install texlive-latex-extra texlive-lang-european latexmk
+
+      - name: Compile
+        run: ./compile
+
+      - name: Archive results
+        run: tar czvf out.tar.gz out
+
+      - name: Upload results for other jobs
+        uses: actions/upload-artifact@v2
+        with:
+          name: out
+          path: out.tar.gz
+
+  upload:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
+    needs:
+      - compile
+    steps:
+      - name: Download results
+        uses: actions/download-artifact@v2
+        with:
+          name: out
+
+      - name: Extract results
+        run: tar xvf out.tar.gz
+
+      - name: Setup ssh
+        run: |
+          mkdir ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_ed25519
+          chmod 0600 ~/.ssh/id_ed25519
+          echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.UPLOAD_SSH_PRIVATE_KEY }}
+          SSH_KNOWN_HOSTS: ${{ secrets.UPLOAD_SSH_KNOWN_HOSTS }}
+
+      - name: Upload results
+        run: rsync -a out/ "$RSYNC_LOCATION"
