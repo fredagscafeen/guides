@@ -1,6 +1,14 @@
 name: Compile & Upload
 
 on:
+  workflow_dispatch:
+      inputs:
+        logLevel:
+          description: 'Log level'     
+          required: true
+          default: 'warning'
+        tags:
+          description: 'Workflow dispatch'  
   push:
     branches:
       - master
