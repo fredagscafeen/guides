@@ -12,6 +12,14 @@
 
 % Enables use of links, and adds ToC for your PDF-reader
 \usepackage{hyperref}
+\usepackage{url}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    citecolor=black,
+}
 % A small macro for inserting clickable email adresses, e.g.,
 % \email{best@fredagscafeen.dk}
 \newcommand*{\email}[1]{\href{mailto:#1}{\nolinkurl{#1}}}
@@ -83,3 +91,8 @@
 % (as \autoref does). This might not be a good idea if multiple labels
 % are used in a \cref.
 \usepackage[nameinlink]{cleveref}
+
+% To enable the indexing feature of LaTeX
+\usepackage{makeidx}
+\makeindex
+\usepackage[nottoc]{tocbibind}
