@@ -1,0 +1,181 @@
+\section{Vedligeholdelse og drift}
+\label{sec:vedligeholdelse-og-drift}
+
+På serveren kan man køre forskellige scripts, der gør livet lettere som webansvarlig.
+Serveren tilgås med ssh:
+
+\begin{verbatim}
+$ ssh ubuntu@fredagscafeen.dk
+\end{verbatim}
+
+For at tilgå Git-repo'et, skal man ind i mappen \texttt{/web}:
+
+\begin{verbatim}
+$ cd web
+\end{verbatim}
+
+\subsection{Ny barplan}
+\label{sec:ny-barplan}
+
+Et par uger før barplanen udløber, skal der genereres en ny barplan.
+Men før man gør dette, sender man en mail til de andre bartendere (\email{alle@fredagscafeen.dk}), 
+der informerer om, at der snart bliver genereret en ny barplan, og at de skal huske at vælge hvilke 
+fredage, de ikke har mulighed for at stå i bar, på deres profil på hjemmesiden: 
+\url{https://fredagscafeen.dk/da/profile/}. 
+En template for denne mail kan ses i bilag~\ref{appendix:ny_barplan_mail_template}.
+
+Når barplanen skal genereres, kører man følgende script på serveren:
+
+\begin{verbatim}
+$ docker-compose exec app ./manage.py generate_barshifts
+\end{verbatim}
+
+Når man kører scriptet, bliver bartendernes valg taget i betragtning, og de bliver ikke sat på de
+fredage, de har fravalgt. Derudover bliver man også informeret om, hvis der er bartendere, der har
+valgt de ikke kan stå i bar på noget tidspunkt i perioden, og derfor ikke bliver sat på nogen vagter.
+Perioden der bliver genereret, er på $2n$ uger, hvor $n$ er antallet af bestyrelsesmedlemmer.
+Scriptet forsøger at fordele vagterne således at alle dage bliver dækket, og forsøger så vidt muligt
+at fordele vagterne jævnt mellem bartenderne.
+Når scriptet har kørt færdigt, får man listen over fordelingerne, og man kan vælge at godkende eller
+afvise den.
+
+\subsection{Nye pantvagter}
+\label{sec:nye-pantvagter}
+
+Før de nuværende pantvagter udløber, skal der genereres nye pantvagter.
+Den webansvarlige vælger selv, hvornår de nye pantvagter skal genereres.
+
+Når der skal genereres nye pantvagter, køres følgende script på serveren:
+
+\begin{verbatim}
+$ docker-compose exec app ./manage.py generate_deposit_shifts
+\end{verbatim}
+
+Når scriptet har kørt færdigt, får man listen over fordelingerne, og man kan vælge at godkende eller
+afvise den. Man kan vælge at afvise den, hvis det f.eks. viser sig at en person har fået flere vagter 
+i træk.
+
+\subsection{Opdatering af hjemmesiden}
+\label{sec:opdatering-af-hjemmesiden}
+
+Det kan ske at der skal opdateres forskellige ting på hjemmesiden, hvis der f.eks. er fejl, men også
+hvis der skal tilføjes nye features.
+Koden til hjemmesiden ligger på GitHub: \url{https://github.com/fredagscafeen/web}.
+Man bestemmer selv hvilke ændringer, der skal laves, og hvordan de skal laves. Dog er det altid en god
+idé at indrage de berørte parter, hvis det er større ændringer, der skal laves. En liste over de
+aktive issues/opgaver kan ses på GitHub: \url{https://github.com/fredagscafeen/web/issues}. Markér
+opgaverne som færdige, når de er løst, og tilføj løbende flere.\\
+
+Før man pusher ændringer, er det vigtigt først at teste dem lokalt. Opsætningen heraf, 
+kan læses i repository'ets README fil.
+Efter man har testet at ændringerne virker, som de skal, pusher man ændringerne til \textbf{master}
+branchen på GitHub. Derefter venter man på at GitHub Actions bygger, tester og deployer ændringerne:
+\url{https://github.com/fredagscafeen/web/actions}.
+
+Når Actions er færdig, forbinder man til serveren, henter ændringerne fra Git, og genstarter containeren:
+
+\begin{enumerate}
+    \item Pull ændringer og genstart container:
+    \begin{verbatim}
+$ git pull && docker-compose pull && docker-compose restart\end{verbatim}
+    \item Byg og start container:
+    \begin{verbatim}
+$ docker-compose build && docker-compose up -d\end{verbatim}
+\end{enumerate}
+
+\subsection{Nye bartendere}
+\label{sec:nye-bartendere}
+
+Efter en bartenderansøgning er godkendt på et bestyrelsesmøde, skal den nye bartender tilføjes til
+mailinglisten (\email{alle@fredagscafeen.dk}) og facebook gruppen 
+(\url{https://www.facebook.com/groups/1200445467453617}).
+
+\subsection{Brugbare Kommandoer}
+\label{sec:brugbare-kommandoer}
+
+Udover de allerede nævnte kommandoer, er der en række andre kommandoer, der kan være nyttige at kende til.
+
+\begin{figure}[H]
+    \centering
+    \begin{tabular}{l l}
+        \textbf{Beskrivelse} & \textbf{Kommando} \\
+        \hline
+        & \\
+        \textit{Linux} & \\
+        & \\
+        \begin{minipage}
+            {0.5\textwidth}
+            Se indhold i mappe
+        \end{minipage}& 
+        \begin{minipage}
+            {0.5\textwidth}
+            \texttt{\$ ls}
+        \end{minipage} \\
+        & \\
+        \begin{minipage}
+            {0.5\textwidth}
+            Se nuværende sti
+        \end{minipage}& 
+        \begin{minipage}
+            {0.5\textwidth}
+            \texttt{\$ pwd}
+        \end{minipage} \\
+        & \\
+        \begin{minipage}
+            {0.5\textwidth}
+            Se størrelse på partitions
+        \end{minipage}& 
+        \begin{minipage}
+            {0.5\textwidth}
+            \texttt{\$ df -Th}
+        \end{minipage} \\
+        & \\
+        \begin{minipage}
+            {0.5\textwidth}
+            Luk terminalen\\
+            ({\small\href{https://www.youtube.com/watch?v=95oGJPDebeE}{The 'exit' Command In Linux}})
+        \end{minipage}& 
+        \begin{minipage}
+            {0.5\textwidth}
+            \texttt{\$ exit}
+        \end{minipage} \\
+        & \\
+        \hline
+        & \\
+        \textit{Docker} & \\
+        & \\
+        \begin{minipage}
+            {0.5\textwidth}
+            Se alle containers
+        \end{minipage}&
+        \begin{minipage}
+            {0.5\textwidth}
+            \texttt{\$ docker ps -a}
+        \end{minipage} \\
+        & \\
+        \begin{minipage}
+            {0.5\textwidth}
+            Slet alle ubrugte docker images og containers
+        \end{minipage}&
+        \begin{minipage}
+            {0.5\textwidth}
+            \texttt{\$ docker system prune -a}
+        \end{minipage} \\
+        & \\
+        \hline
+        & \\
+        \textit{Git} & \\
+        & \\
+        \begin{minipage}
+            {0.5\textwidth}
+            Kør Git's Garbage Collector
+        \end{minipage}&
+        \begin{minipage}
+            {0.5\textwidth}
+            \texttt{\$ git gc}
+        \end{minipage} \\
+        & \\
+    \end{tabular}
+    \caption{Brugbare Kommandoer}
+    \label{fig:brugbare-kommandoer}
+\end{figure}

@@ -1,0 +1,60 @@
+\section{Efter generalforsamling}
+\label{sec:efter-generalforsamling}
+
+Efter generalforsamlingen er der en række ting, der skal opdateres på hjemmesiden.
+Vi tilføjer generelt den nye bestyrelse med det samme, men fjerner først den gamle bestyrelse, 
+efter første bestyrelsesmøde.
+
+\subsection{Ny bestyrelse}
+\label{sec:ny-bestyrelse}
+
+\subsubsection{Før første bestyrelsesmøde}
+\label{sec:foer-foerste-bestyrelsesmoede}
+
+\begin{itemize}
+    \item Tilføj den nye bestyrelse til \url{https://fredagscafeen.dk/board/}. 
+    Dette kan gøres ved at kalde følgende script på serveren:
+    {\small\begin{verbatim}
+$ docker exec -it web_app_1 ./manage.py new_board\end{verbatim}}
+    \item Tilføj de nye bestyrelsesmedlemmer til bestyrelses mailinglisten \email{best@fredagscafeen.dk}:\\
+    {\small\url{https://maillist.au.dk/postorius/lists/datcafe-best.cs.maillist.au.dk/}}
+    \item Tilføj de nye bestyrelsesmedlemmer til Discord gruppen, og lav en ny bestyrelses rolle og kanal.
+    \item Opdater direktionen på hjemmesiden:\\
+    {\small\url{https://fredagscafeen.dk/da/about/}}
+\end{itemize}
+
+\subsubsection{Efter første bestyrelsesmøde}
+\label{sec:efter-foerste-bestyrelsesmoede}
+
+\begin{itemize}
+    \item Opdater \url{https://fredagscafeen.dk/board/} med billeder og titler.
+    % Der er tradition for at man bruger børnebilleder af sig selv, men det er ikke et krav.
+    \item Tilføj de nye bestyrelsesmedlemmer til GitLab gruppen
+    med ``Maintainer'' rolle, og fjern de gamle bestyrelsesmedlemmer:\\
+    {\small\url{https://gitlab.au.dk/groups/fredagscafeen/-/group_members}}
+    \item Fjern de gamle bestyrelsesmedlemmer fra bestyrelses mailinglisten:\\
+    {\small\url{https://maillist.au.dk/postorius/lists/datcafe-best.cs.maillist.au.dk/}}
+    \item Fjern admin rettigheder på hjemmesiden fra de gamle bestyrelsesmedlemmer, og tilføj de nye.
+    Kan gøres ved at kalde følgende script på serveren:
+    {\small\begin{verbatim}
+$ docker exec -it web_app_1 ./manage.py update_board_member_accounts\end{verbatim}}
+    \item Lav nye kodeord og opdater \texttt{.env} filen på serveren:\\
+    {\small\url{https://fredagscafeen.dk/da/admin/admin/secrets/}}
+\end{itemize}
+
+\subsection{Ny webansvarlig}
+\label{sec:ny-webansvarlig}
+
+Dette skal kun gøres, hvis der er valgt en ny webansvarlig.
+\begin{itemize}
+    \item Lav den nye webansvarlige til superbruger på hjemmesiden.
+    \item Tilføj ssh adgang til serveren for den nye webansvarlige.
+    Dette gøres ved at kopiere den nye webansvarliges ssh nøgle til 
+    \texttt{\textasciitilde/.ssh/authorized\_keys} på serveren.
+    \item Den nye webansvarlige skal have ``Owner'' rolle i GitLab gruppen.
+    \item Den nye webansvarlige tilføjes til GitHub organisationen med ``Owner'' rolle:\\
+    {\small\url{https://github.com/orgs/fredagscafeen/people}}
+    \item Tilføj den nye webansvarlige til \texttt{ADMINS} i \texttt{base.py} filen i\\
+    \texttt{fredagscafeen/settings/}, så den nye webansvarlige får emails ved serverfejl:\\
+    {\small\url{https://github.com/fredagscafeen/web/blob/master/fredagscafeen/settings/base.py}}
+\end{itemize}
