@@ -1,4 +1,4 @@
-\section{Vedligeholdelse og drift}
+\section{Vedligeholdelse og Drift}
 \label{sec:vedligeholdelse-og-drift}
 
 På serveren kan man køre forskellige scripts, der gør livet lettere som webansvarlig.
@@ -14,7 +14,7 @@ For at tilgå Git-repo'et, skal man ind i mappen \texttt{/web}:
 $ cd web
 \end{verbatim}
 
-\subsection{Ny barplan}
+\subsection{Ny Barplan}
 \label{sec:ny-barplan}
 
 Et par uger før barplanen udløber, skal der genereres en ny barplan.
@@ -39,7 +39,7 @@ at fordele vagterne jævnt mellem bartenderne.
 Når scriptet har kørt færdigt, får man listen over fordelingerne, og man kan vælge at godkende eller
 afvise den.
 
-\subsection{Nye pantvagter}
+\subsection{Nye Pantvagter}
 \label{sec:nye-pantvagter}
 
 Før de nuværende pantvagter udløber, skal der genereres nye pantvagter.
@@ -55,16 +55,21 @@ Når scriptet har kørt færdigt, får man listen over fordelingerne, og man kan
 afvise den. Man kan vælge at afvise den, hvis det f.eks. viser sig at en person har fået flere vagter 
 i træk.
 
-\subsection{Opdatering af hjemmesiden}
+\subsection{Opdatering af Hjemmesiden}
 \label{sec:opdatering-af-hjemmesiden}
 
-Det kan ske at der skal opdateres forskellige ting på hjemmesiden, hvis der f.eks. er fejl, men også
+Det kan ske, at der skal opdateres forskellige ting på hjemmesiden, hvis der f.eks. er fejl, men også
 hvis der skal tilføjes nye features.
 Koden til hjemmesiden ligger på GitHub: \url{https://github.com/fredagscafeen/web}.
 Man bestemmer selv hvilke ændringer, der skal laves, og hvordan de skal laves. Dog er det altid en god
 idé at indrage de berørte parter, hvis det er større ændringer, der skal laves. En liste over de
 aktive issues/opgaver kan ses på GitHub: \url{https://github.com/fredagscafeen/web/issues}. Markér
 opgaverne som færdige, når de er løst, og tilføj løbende flere.\\
+
+En god måde at sætte sig ind I koden på, er at starte med at refactor. Man kan refactor en hel masse, 
+uden først at vide hvad alting er og gør. Brug principperne fra SWEA, og ellers kan bogen 
+``Five Lines of Code'' af Christian Clausen (2021) anbefaldes. Husk også at refactor efter at 
+have tilføjet ændringer. \\
 
 Før man pusher ændringer, er det vigtigt først at teste dem lokalt. Opsætningen heraf, 
 kan læses i repository'ets README fil.
@@ -83,7 +88,7 @@ $ git pull && docker-compose pull && docker-compose restart\end{verbatim}
 $ docker-compose build && docker-compose up -d\end{verbatim}
 \end{enumerate}
 
-\subsection{Nye bartendere}
+\subsection{Nye Bartendere}
 \label{sec:nye-bartendere}
 
 Efter en bartenderansøgning er godkendt på et bestyrelsesmøde, skal den nye bartender tilføjes til
@@ -128,16 +133,6 @@ Udover de allerede nævnte kommandoer, er der en række andre kommandoer, der ka
         \begin{minipage}
             {0.5\textwidth}
             \texttt{\$ df -Th}
-        \end{minipage} \\
-        & \\
-        \begin{minipage}
-            {0.5\textwidth}
-            Luk terminalen\\
-            ({\small\href{https://www.youtube.com/watch?v=95oGJPDebeE}{The 'exit' Command In Linux}})
-        \end{minipage}& 
-        \begin{minipage}
-            {0.5\textwidth}
-            \texttt{\$ exit}
         \end{minipage} \\
         & \\
         \hline
