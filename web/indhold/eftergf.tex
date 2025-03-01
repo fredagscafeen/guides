@@ -15,7 +15,7 @@ efter første bestyrelsesmøde.
     \item Tilføj den nye bestyrelse til \url{https://fredagscafeen.dk/board/}. 
     Dette kan gøres ved at kalde følgende script på serveren:
     {\small\begin{verbatim}
-$ docker exec -it web_app_1 ./manage.py new_board\end{verbatim}}
+$ docker-compose exec app ./manage.py new_board --start-date=YEAR-MM-DD\end{verbatim}}
     \item Tilføj de nye bestyrelsesmedlemmer til bestyrelses mailinglisten \email{best@fredagscafeen.dk}:\\
     {\small\url{https://maillist.au.dk/postorius/lists/datcafe-best.cs.maillist.au.dk/}}
     \item Tilføj de nye bestyrelsesmedlemmer til Discord gruppen, og lav en ny bestyrelses rolle og kanal.

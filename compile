@@ -4,15 +4,17 @@ from pathlib import Path
 from subprocess import check_output, run
 
 base_dir = Path(__file__).absolute().parent
-tex_files = [
-    (Path("barvagt/main.tex"), "barvagt.pdf"),
-]
+excluded_dirs = ["pizza", "kasserer"]
 
 out_dir = base_dir / "out"
 out_dir.mkdir(exist_ok=True)
 
+tex_files = []
 for d in base_dir.iterdir():
     if not d.is_dir():
+        continue
+
+    if d.name in excluded_dirs:
         continue
 
     tex_file = d / "main.tex"
