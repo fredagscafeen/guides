@@ -88,6 +88,38 @@ $ git pull && docker-compose pull && docker-compose restart\end{verbatim}
 $ docker-compose build && docker-compose up -d\end{verbatim}
 \end{enumerate}
 
+\subsubsection{Internationalisering}
+
+Hjemmesiden er internationaliseret, så den kan ses på både dansk og engelsk.
+Dette er implementeret ved hjælp af Django's middleware kaldet \texttt{LocaleMiddleware}.
+Dette bruges nemt i python koden ved at importere \texttt{gettext\_lazy}:
+\begin{verbatim}
+from django.utils.translation import gettext_lazy as _
+\end{verbatim}
+På denne måde er det eneste man skal gøre, at omkredse teksten, der skal oversættes, med \texttt{\_()}:
+\begin{verbatim}
+_("Hello, world!")
+\end{verbatim}
+I templates bruges \texttt{\{\% translate "Hello, world!" \%\}} eller 
+\texttt{\{\% blocktranslate \%\}}-\texttt{\{\% endblocktranslate \%\}}
+Husk her altid at sikre at \texttt{\{\% load i18n \%\}} er til stede i toppen af filen.
+
+Herefter kaldes følgende kommando, for at generere oversættelsesfilerne:
+\begin{verbatim}
+$ ./manage.py makemessages --all
+\end{verbatim}
+For at gøre det nemmere at oversætte teksten, har vi tilføjet udvidelsen \texttt{rosetta}, som
+gør det muligt som admin, at oversætte teksten direkte på hjemmesiden. Dette gøres ved at tilgå
+\url{http://127.0.0.1:8000/rosetta/} lokalt!
+
+Når oversættelserne er færdige, skal de kompileres:
+\begin{verbatim}
+$ ./manage.py compilemessages
+\end{verbatim}
+
+Læs mere om oversættelse i Django's dokumentation, 
+\href{https://docs.djangoproject.com/en/5.1/topics/i18n/translation/}{her}.
+
 \subsection{Nye Bartendere}
 \label{sec:nye-bartendere}
 
