@@ -35,7 +35,7 @@ $ docker-compose exec app ./manage.py new_board --start-date=YEAR-MM-DD\end{verb
     \item Fjern admin rettigheder på hjemmesiden fra de gamle bestyrelsesmedlemmer, og tilføj de nye.
     Kan gøres ved at kalde følgende script på serveren:
     {\small\begin{verbatim}
-$ docker exec -it web_app_1 ./manage.py update_board_member_accounts\end{verbatim}}
+$ docker-compose exec app ./manage.py update_board_member_accounts\end{verbatim}}
     \item Lav nye kodeord og opdater \texttt{.env} filen på serveren:\\
     {\small\url{https://fredagscafeen.dk/da/admin/admin/secrets/}}
     Undgå at lave Google passwordet til \email{datcafe@gmail.com} om, men blot ændre hvem der har 
