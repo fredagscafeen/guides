@@ -1,4 +1,4 @@
-%% Creator: Inkscape 1.3.2 (091e20e, 2023-11-25), www.inkscape.org
+%% Creator: Inkscape 1.4 (e7c3feb1, 2024-10-09), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file 'baromraadet.pdf' (pdf, eps, ps)
 %%
@@ -20,7 +20,7 @@
 %%   \import{<path to file>}{<filename>.pdf_tex}
 %% Alternatively, one can specify
 %%   \graphicspath{{<path to file>/}}
-%%
+%% 
 %% For more information, please see info/svg-inkscape on CTAN:
 %%   http://tug.ctan.org/tex-archive/info/svg-inkscape
 %%
@@ -57,7 +57,7 @@
     \put(0.47344971,0.31316759){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Ståmåtte\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{baromraadet.pdf}}%
     \put(0.50949779,0.49170529){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Højborde\end{tabular}}}}%
-    \put(0.36987084,0.20729911){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Pantkasse\end{tabular}}}}%
+    \put(0.77806464,0.13507439){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Pantkasse\end{tabular}}}}%
     \put(0.22913793,0.21891329){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Chips\end{tabular}}}}%
     \put(0.25519508,0.15905013){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Brætspil\end{tabular}}}}%
     \put(0.08730783,0.34004433){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Garderobestativ\end{tabular}}}}%
@@ -65,7 +65,7 @@
     \put(0.19577336,0.4268474){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Opvaskebakke \\til beskidte\\plastkopper\end{tabular}}}}%
     \put(0.21350849,0.54546803){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Køleskabe\end{tabular}}}}%
     \put(0.42795764,0.04925574){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Bar\end{tabular}}}}%
-    \put(0.69435055,0.07664247){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Skralespand\end{tabular}}}}%
+    \put(0.6320932,0.0636722){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Skralespand\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{baromraadet.pdf}}%
   \end{picture}%
 \endgroup%
