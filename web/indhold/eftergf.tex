@@ -17,7 +17,7 @@ efter første bestyrelsesmøde.
     {\small\begin{verbatim}
 $ docker-compose exec app ./manage.py new_board --start-date=YEAR-MM-DD\end{verbatim}}
     \item Tilføj de nye bestyrelsesmedlemmer til bestyrelses mailinglisten \bestmail~:\\
-    {\small\url{https://maillist.au.dk/postorius/lists/datcafe-best.cs.maillist.au.dk/}}
+    {\small\url{https://fredagscafeen.dk/da/admin/mail/mailinglist/}}
     \item Tilføj de nye bestyrelsesmedlemmer til Discord gruppen, og lav en ny bestyrelses rolle og kanal.
 \end{itemize}
 
@@ -25,21 +25,23 @@ $ docker-compose exec app ./manage.py new_board --start-date=YEAR-MM-DD\end{verb
 \label{sec:efter-foerste-bestyrelsesmoede}
 
 \begin{itemize}
-    \item Opdater \url{https://fredagscafeen.dk/board/} med billeder og titler.
+    \item Opdater \url{https://fredagscafeen.dk/board/} med billeder, aliaser og titler.
     % Der er tradition for at man bruger børnebilleder af sig selv, men det er ikke et krav.
-    \item Tilføj de nye bestyrelsesmedlemmer til GitLab gruppen
-    med ``Maintainer'' rolle, og fjern de gamle bestyrelsesmedlemmer:\\
-    {\small\url{https://gitlab.au.dk/groups/fredagscafeen/-/group_members}}
-    \item Fjern de gamle bestyrelsesmedlemmer fra bestyrelses mailinglisten:\\
-    {\small\url{https://maillist.au.dk/postorius/lists/datcafe-best.cs.maillist.au.dk/}}
+    \item Opdater mail aliaser for de nye bestyrelsesmedlemmer og 
+    fjern de gamle bestyrelsesmedlemmer fra bestyrelses mailinglisten:\\
+    {\small\url{https://fredagscafeen.dk/da/admin/mail/mailinglist/}}
     \item Fjern admin rettigheder på hjemmesiden fra de gamle bestyrelsesmedlemmer, og tilføj de nye.
     Kan gøres ved at kalde følgende script på serveren:
     {\small\begin{verbatim}
 $ docker-compose exec app ./manage.py update_board_member_accounts\end{verbatim}}
+    \item Tilføj de nye bestyrelsesmedlemmer til GitLab gruppen
+    med ``Maintainer'' rolle, og fjern de gamle bestyrelsesmedlemmer:\\
+    {\small\url{https://gitlab.au.dk/groups/fredagscafeen/-/group_members}}
     \item Lav nye kodeord og opdater \texttt{.env} filen på serveren:\\
-    {\small\url{https://fredagscafeen.dk/da/admin/admin/secrets/}}
-    Undgå at lave Google passwordet til \email{datcafe@gmail.com} om, men blot ændre hvem der har 
-    2-faktor enheder. Typisk er det nok at formanden og den webansvarlige har adgang.
+    {\small\url{https://fredagscafeen.dk/da/admin/admin/secrets/}}.
+    Husk at ændre hvem der har 2-faktor enheder, til  Google kontoen \email{datcafe@gmail.com},
+    og Contabo.
+    Typisk er det nok at formanden og den webansvarlige har adgang.
 \end{itemize}
 
 \subsection{Ny Webansvarlig}

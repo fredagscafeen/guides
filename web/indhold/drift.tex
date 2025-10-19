@@ -120,6 +120,98 @@ $ ./manage.py compilemessages
 Læs mere om oversættelse i Django's dokumentation, 
 \href{https://docs.djangoproject.com/en/5.1/topics/i18n/translation/}{her}.
 
+\subsection{Opdatering af Mailserveren}
+\label{sec:mailserver}
+
+Det burde ikke være nødvendigt at lave ændringer til mailserveren, 
+men hvis det skulle hænde, er det nyttigt at dette er skrevet ned.
+Koden til mailserveren på hjemmesiden ligger på GitHub: \url{https://github.com/fredagscafeen/mail}.
+
+\begin{enumerate} \color{gray}
+    \item Pull ændringer og genstart container:
+    \begin{verbatim}
+$ git pull && docker-compose pull && docker-compose restart\end{verbatim}
+    \item Byg og start container:
+    \begin{verbatim}
+$ docker compose up -d --build\end{verbatim} \color{black}
+    \item Connect mailserveren til databasen i web containeren:
+    \begin{verbatim}
+$ docker network connect web_default mail-app-1 \end{verbatim}
+\end{enumerate}
+
+Mailserveren er sat op med Postfix, og her er det nyttigt at kende disse kommandoer:
+
+\begin{figure}[H]
+    \centering
+    \begin{tabular}{l l}
+        \textbf{Beskrivelse} & \textbf{Kommando} \\
+        \hline
+        & \\
+        \textit{Postfix} & \\
+        & \\
+        \begin{minipage}
+            {0.5\textwidth}
+            Se eller ændre Postfix config
+        \end{minipage}& 
+        \begin{minipage}
+            {0.5\textwidth}
+            \texttt{\$ sudo nano /etc/postfix/main.cf}
+        \end{minipage} \\
+        & \\
+        \begin{minipage}
+            {0.5\textwidth}
+            Genstart Postfix
+        \end{minipage}& 
+        \begin{minipage}
+            {0.5\textwidth}
+            \texttt{\$ sudo systemctl restart postfix}
+        \end{minipage} \\
+        & \\
+        \begin{minipage}
+            {0.5\textwidth}
+            Se eller ændre \texttt{transport\_maps}
+        \end{minipage}& 
+        \begin{minipage}
+            {0.5\textwidth}
+            \texttt{\$ sudo nano /etc/postfix/transport}
+        \end{minipage} \\
+        & \\
+        \begin{minipage}
+            {0.5\textwidth}
+            Få ovenstående ændringer til at træde i kraft
+        \end{minipage}& 
+        \begin{minipage}
+            {0.5\textwidth}
+            \texttt{\$ sudo postmap /etc/postfix/transport}
+        \end{minipage} \\
+        & \\
+        \hline
+        & \\
+        \textit{Logs (Nyttigt til debug)} & \\
+        & \\
+        \begin{minipage}
+            {0.5\textwidth}
+            Se Postfix logs
+        \end{minipage}&
+        \begin{minipage}
+            {0.5\textwidth}
+            \texttt{\$ journalctl  -t postfix/smtpd -t postfix/smtp -n 100 --no-pager}
+        \end{minipage} \\
+        & \\
+        \begin{minipage}
+            {0.5\textwidth}
+            Se mailserver logs
+        \end{minipage}&
+        \begin{minipage}
+            {0.5\textwidth}
+            \texttt{\$ docker container logs mail-app-1}
+        \end{minipage} \\
+        & \\
+    \end{tabular}
+    \caption{Postfix og Mail Kommandoer}
+    \label{fig:postfix-kommandoer}
+\end{figure}
+
 \subsection{Nye Bartendere}
 \label{sec:nye-bartendere}
 
