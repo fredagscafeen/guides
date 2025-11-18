@@ -1,0 +1,115 @@
+\documentclass[english]{article}
+% Ability to write input files using utf8
+\usepackage[utf8]{inputenc}
+
+% Proper font, æ, ø and å becomes copy/paste and searchable
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+% Enable \includegraphics, so that images can be included
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.pdf, .png, .jpg, .PDF, .PNG, .JPG}
+
+% Enables use of links, and adds ToC for your PDF-reader
+\usepackage{hyperref}
+\usepackage{url}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,
+    urlcolor=blue,
+    citecolor=black,
+}
+% A small macro for inserting clickable email adresses, e.g.,
+% \email{best@fredagscafeen.dk}
+\newcommand*{\email}[1]{\href{mailto:#1}{\nolinkurl{#1}}}
+
+% A few commonly used emails
+\newcommand*{\allemail}{\email{alle@fredagscafeen.dk}}
+\newcommand*{\bestmail}{\email{best@fredagscafeen.dk}}
+\newcommand*{\beermail}{\email{beer@fredagscafeen.dk}}
+\newcommand*{\webmail}{\email{web@fredagscafeen.dk}}
+
+% Format FøTeX like LaTeX
+\DeclareRobustCommand{\foetex}{%
+  \mbox{F\kern-.1667em\raise.3ex\hbox{\small\o}\kern-.125em\TeX}%
+}
+
+% Adding visible TODO's using \todo
+\usepackage[obeyFinal]{todonotes}
+
+% Better kerning etc.
+\usepackage{microtype}
+
+% To create and control lists (itemize, enumeration, description)
+\usepackage{enumitem}
+
+% A new list environment that has both numbers (as enumeration) and
+% labels (as description)
+\newcounter{enumdescriptioncount}
+\newlist{enumdescription}{description}{1}        % 1 means that it cannot be nested
+\setlist[enumdescription]{%
+  before = {\setcounter{enumdescriptioncount}{0}%
+            \renewcommand*{\theenumdescriptioncount}{\arabic{enumdescriptioncount}}},
+  font = {\bfseries\stepcounter{enumdescriptioncount}{\large \theenumdescriptioncount.}~},
+  align = left,                 % Makes the labels start at the same position
+}
+
+% Be able to have multiple columns in guides and lists
+\usepackage{multicol}
+
+% Hyphenation for Danish words etc.
+\usepackage{babel}
+
+% For conditionals in commands
+\usepackage{xifthen}
+
+% Macro for Question and answers, troubleshooting etc.
+% The optional argument is a label to ref to. The label will be prefixed with "qna:"
+\newcommand{\QnA}[3][]{
+\paragraph{#2}
+% Insert label if it is provided in the optional argument
+\ifthenelse{\isempty{#1}}
+  {}
+  {\label{qna:#1}}
+  \begin{itemize}
+    #3
+  \end{itemize}
+}
+
+% For smileys and other misc symbols
+\usepackage{tikzsymbols}
+
+% Macros for common words, so that we can format them fancily. xspace
+% inserts spaces when needed based on context.
+\usepackage{xspace}
+
+\newcommand*{\fotex}{F%
+\kern -.25em%
+{\raisebox{-.215em}{Ø}}%  % -.215em makes 2 Es match
+\kern -.25em%
+\TeX\xspace}
+
+\newcommand*{\fredagscafeen}{{\fontfamily{ptm}\selectfont Fredagscaféen}}
+
+% Better references, automatically uses Danish names. Use \cref
+% instead of \autoref. See package documentation for more details.
+%
+% nameinlink makes the prefix (e.g. "kapitel") a part of the hyperlink
+% (as \autoref does). This might not be a good idea if multiple labels
+% are used in a \cref.
+\usepackage[nameinlink]{cleveref}
+
+% To enable the indexing feature of LaTeX
+\usepackage{makeidx}
+\makeindex
+\usepackage[nottoc]{tocbibind}
+
+% For better figure layout
+\usepackage{float}
+
+% For date format
+\usepackage{datetime}
+
+% For image path
+\usepackage{import}

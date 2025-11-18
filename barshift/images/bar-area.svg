@@ -8,9 +8,9 @@
    viewBox="-0.5 -0.5 1149 660"
    content="&lt;mxfile host=&quot;app.diagrams.net&quot; agent=&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36&quot; version=&quot;24.8.0&quot; scale=&quot;1&quot; border=&quot;0&quot;&gt;&#10;  &lt;diagram name=&quot;Side-1&quot; id=&quot;P3prjhfwUHkvLFJdore1&quot;&gt;&#10;    &lt;mxGraphModel dx=&quot;1558&quot; dy=&quot;1175&quot; grid=&quot;0&quot; gridSize=&quot;10&quot; guides=&quot;1&quot; tooltips=&quot;1&quot; connect=&quot;1&quot; arrows=&quot;1&quot; fold=&quot;1&quot; page=&quot;0&quot; pageScale=&quot;1&quot; pageWidth=&quot;827&quot; pageHeight=&quot;1169&quot; math=&quot;0&quot; shadow=&quot;0&quot;&gt;&#10;      &lt;root&gt;&#10;        &lt;mxCell id=&quot;0&quot; /&gt;&#10;        &lt;mxCell id=&quot;1&quot; parent=&quot;0&quot; /&gt;&#10;        &lt;mxCell id=&quot;wJ-GAs_ORp4mZZzsxB3k-2&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.office_chair;shadow=0;direction=north;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;572&quot; y=&quot;162&quot; width=&quot;43&quot; height=&quot;40&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;wJ-GAs_ORp4mZZzsxB3k-1&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.office_chair;shadow=0;direction=north;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;572&quot; y=&quot;82&quot; width=&quot;43&quot; height=&quot;40&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-1&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.wall;fillColor=strokeColor;direction=south;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;-148&quot; y=&quot;190&quot; width=&quot;10&quot; height=&quot;369&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-2&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.wall;fillColor=strokeColor;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;-145&quot; y=&quot;190&quot; width=&quot;345&quot; height=&quot;10&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-3&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.wall;fillColor=strokeColor;direction=south;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;190&quot; y=&quot;-90&quot; width=&quot;10&quot; height=&quot;280&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-4&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.wall;fillColor=strokeColor;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;190&quot; y=&quot;-100&quot; width=&quot;810&quot; height=&quot;10&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-16&quot; value=&quot;&quot; style=&quot;shape=rect;shadow=0;html=1;direction=west;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;70&quot; y=&quot;200&quot; width=&quot;96&quot; height=&quot;60&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-22&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.room;fillColor=#000000;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;210&quot; y=&quot;370&quot; width=&quot;80&quot; height=&quot;80&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-33&quot; value=&quot;&quot; style=&quot;shape=rect;shadow=0;html=1;direction=west;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;390&quot; y=&quot;-86&quot; width=&quot;120&quot; height=&quot;40&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-39&quot; value=&quot;&quot; style=&quot;group&quot; parent=&quot;1&quot; vertex=&quot;1&quot; connectable=&quot;0&quot;&gt;&#10;          &lt;mxGeometry x=&quot;761&quot; y=&quot;-76&quot; width=&quot;126&quot; height=&quot;160&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-7&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.office_chair;shadow=0;direction=south;&quot; parent=&quot;gc1oklfvDwFeD3-8zKts-39&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;83&quot; y=&quot;20&quot; width=&quot;43&quot; height=&quot;40&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-8&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.office_chair;shadow=0;direction=north;&quot; parent=&quot;gc1oklfvDwFeD3-8zKts-39&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry y=&quot;20&quot; width=&quot;43&quot; height=&quot;40&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-11&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.office_chair;shadow=0;direction=south;&quot; parent=&quot;gc1oklfvDwFeD3-8zKts-39&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;83&quot; y=&quot;90&quot; width=&quot;43&quot; height=&quot;40&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-12&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.office_chair;shadow=0;direction=north;&quot; parent=&quot;gc1oklfvDwFeD3-8zKts-39&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry y=&quot;90&quot; width=&quot;43&quot; height=&quot;40&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-13&quot; value=&quot;&quot; style=&quot;shape=rect;shadow=0;html=1;direction=south;&quot; parent=&quot;gc1oklfvDwFeD3-8zKts-39&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;13&quot; width=&quot;100&quot; height=&quot;160&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-41&quot; value=&quot;&quot; style=&quot;group&quot; parent=&quot;1&quot; vertex=&quot;1&quot; connectable=&quot;0&quot;&gt;&#10;          &lt;mxGeometry x=&quot;589&quot; y=&quot;142&quot; width=&quot;69&quot; height=&quot;220&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-42&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.office_chair;shadow=0;direction=south&quot; parent=&quot;gc1oklfvDwFeD3-8zKts-41&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;26&quot; y=&quot;20&quot; width=&quot;43&quot; height=&quot;40&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-43&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.office_chair;shadow=0;direction=south&quot; parent=&quot;gc1oklfvDwFeD3-8zKts-41&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;26&quot; y=&quot;90&quot; width=&quot;43&quot; height=&quot;40&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-44&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.office_chair;shadow=0;direction=south&quot; parent=&quot;gc1oklfvDwFeD3-8zKts-41&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;26&quot; y=&quot;160&quot; width=&quot;43&quot; height=&quot;40&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-45&quot; value=&quot;&quot; style=&quot;shape=rect;shadow=0;html=1;direction=south;&quot; parent=&quot;gc1oklfvDwFeD3-8zKts-41&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;55&quot; height=&quot;220&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-46&quot; value=&quot;&quot; style=&quot;group&quot; parent=&quot;1&quot; vertex=&quot;1&quot; connectable=&quot;0&quot;&gt;&#10;          &lt;mxGeometry x=&quot;366&quot; y=&quot;371&quot; width=&quot;216&quot; height=&quot;69&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-23&quot; value=&quot;&quot; style=&quot;rounded=0;whiteSpace=wrap;html=1;&quot; parent=&quot;gc1oklfvDwFeD3-8zKts-46&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;216&quot; height=&quot;69&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-24&quot; value=&quot;&quot; style=&quot;endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;&quot; parent=&quot;gc1oklfvDwFeD3-8zKts-46&quot; source=&quot;gc1oklfvDwFeD3-8zKts-23&quot; target=&quot;gc1oklfvDwFeD3-8zKts-23&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;170&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;220&quot; y=&quot;-53.07692307692308&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-47&quot; value=&quot;&quot; style=&quot;group&quot; parent=&quot;1&quot; vertex=&quot;1&quot; connectable=&quot;0&quot;&gt;&#10;          &lt;mxGeometry x=&quot;200&quot; y=&quot;94&quot; width=&quot;114.5&quot; height=&quot;56&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-37&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.doorRight;aspect=fixed;direction=north;flipV=1;&quot; parent=&quot;gc1oklfvDwFeD3-8zKts-47&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;55&quot; width=&quot;59.5&quot; height=&quot;56&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-38&quot; value=&quot;&quot; style=&quot;whiteSpace=wrap;html=1;&quot; parent=&quot;gc1oklfvDwFeD3-8zKts-47&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;55&quot; height=&quot;56&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-48&quot; value=&quot;&quot; style=&quot;group&quot; parent=&quot;1&quot; vertex=&quot;1&quot; connectable=&quot;0&quot;&gt;&#10;          &lt;mxGeometry x=&quot;200&quot; y=&quot;-20&quot; width=&quot;113.44&quot; height=&quot;110&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-15&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.doorDouble;direction=north;aspect=fixed;&quot; parent=&quot;gc1oklfvDwFeD3-8zKts-48&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;55&quot; width=&quot;58.44&quot; height=&quot;110&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-51&quot; value=&quot;&quot; style=&quot;group&quot; parent=&quot;gc1oklfvDwFeD3-8zKts-48&quot; vertex=&quot;1&quot; connectable=&quot;0&quot;&gt;&#10;          &lt;mxGeometry width=&quot;88&quot; height=&quot;110&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-17&quot; value=&quot;&quot; style=&quot;rounded=0;whiteSpace=wrap;html=1;direction=south;&quot; parent=&quot;gc1oklfvDwFeD3-8zKts-51&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;60&quot; height=&quot;110&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-50&quot; value=&quot;&quot; style=&quot;endArrow=none;html=1;rounded=0;entryX=0.499;entryY=-0.036;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;&quot; parent=&quot;gc1oklfvDwFeD3-8zKts-51&quot; source=&quot;gc1oklfvDwFeD3-8zKts-17&quot; target=&quot;gc1oklfvDwFeD3-8zKts-17&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;80&quot; y=&quot;130&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;130&quot; y=&quot;80&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-49&quot; value=&quot;&quot; style=&quot;group&quot; parent=&quot;1&quot; vertex=&quot;1&quot; connectable=&quot;0&quot;&gt;&#10;          &lt;mxGeometry x=&quot;200&quot; y=&quot;-80&quot; width=&quot;114.5&quot; height=&quot;56&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-35&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.doorRight;aspect=fixed;direction=north;&quot; parent=&quot;gc1oklfvDwFeD3-8zKts-49&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;55&quot; width=&quot;59.5&quot; height=&quot;56&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-36&quot; value=&quot;&quot; style=&quot;whiteSpace=wrap;html=1;&quot; parent=&quot;gc1oklfvDwFeD3-8zKts-49&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;55&quot; height=&quot;56&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-54&quot; value=&quot;&quot; style=&quot;rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#647687;sketch=1;fontColor=#ffffff;strokeColor=#314354;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;369&quot; y=&quot;251&quot; width=&quot;210&quot; height=&quot;110&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;gc1oklfvDwFeD3-8zKts-55&quot; value=&quot;&quot; style=&quot;shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;592&quot; y=&quot;373&quot; width=&quot;50&quot; height=&quot;40&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-1&quot; value=&quot;&quot; style=&quot;group&quot; parent=&quot;1&quot; vertex=&quot;1&quot; connectable=&quot;0&quot;&gt;&#10;          &lt;mxGeometry x=&quot;761&quot; y=&quot;84&quot; width=&quot;126&quot; height=&quot;160&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-2&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.office_chair;shadow=0;direction=south;&quot; parent=&quot;1jkrQc-gWC2C8GfhcnoL-1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;83&quot; y=&quot;20&quot; width=&quot;43&quot; height=&quot;40&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-3&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.office_chair;shadow=0;direction=north;&quot; parent=&quot;1jkrQc-gWC2C8GfhcnoL-1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry y=&quot;20&quot; width=&quot;43&quot; height=&quot;40&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-4&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.office_chair;shadow=0;direction=south;&quot; parent=&quot;1jkrQc-gWC2C8GfhcnoL-1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;83&quot; y=&quot;90&quot; width=&quot;43&quot; height=&quot;40&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-5&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.office_chair;shadow=0;direction=north;&quot; parent=&quot;1jkrQc-gWC2C8GfhcnoL-1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry y=&quot;90&quot; width=&quot;43&quot; height=&quot;40&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-6&quot; value=&quot;&quot; style=&quot;shape=rect;shadow=0;html=1;direction=south;&quot; parent=&quot;1jkrQc-gWC2C8GfhcnoL-1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;13&quot; width=&quot;100&quot; height=&quot;160&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-13&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.room;fillColor=#000000;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;862&quot; y=&quot;370&quot; width=&quot;80&quot; height=&quot;80&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-26&quot; value=&quot;Ståmåtte&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=default;gradientColor=none;strokeColor=none;fontSize=16;fontFamily=lmodern;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;356&quot; y=&quot;184&quot; width=&quot;83&quot; height=&quot;18&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-27&quot; value=&quot;Køleskabe&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=default;gradientColor=none;strokeColor=none;fontSize=16;fontFamily=lmodern;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;70&quot; y=&quot;-82&quot; width=&quot;83&quot; height=&quot;18&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-25&quot; value=&quot;Bar&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=default;gradientColor=none;strokeColor=none;fontSize=16;fontFamily=lmodern;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;329&quot; y=&quot;484&quot; width=&quot;83&quot; height=&quot;18&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-28&quot; value=&quot;&quot; style=&quot;endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;&quot; parent=&quot;1&quot; source=&quot;1jkrQc-gWC2C8GfhcnoL-25&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;454&quot; y=&quot;247&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;375&quot; y=&quot;440&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-31&quot; value=&quot;&quot; style=&quot;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.176;entryY=-0.036;entryDx=0;entryDy=0;entryPerimeter=0;&quot; parent=&quot;1&quot; source=&quot;1jkrQc-gWC2C8GfhcnoL-26&quot; target=&quot;gc1oklfvDwFeD3-8zKts-54&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;454&quot; y=&quot;247&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;504&quot; y=&quot;197&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-33&quot; value=&quot;&quot; style=&quot;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;&quot; parent=&quot;1&quot; source=&quot;1jkrQc-gWC2C8GfhcnoL-27&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;388&quot; y=&quot;246&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;227&quot; y=&quot;32&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-37&quot; value=&quot;Skraldespand&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=default;gradientColor=none;strokeColor=none;fontSize=16;fontFamily=lmodern;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;598&quot; y=&quot;453&quot; width=&quot;83&quot; height=&quot;18&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-38&quot; value=&quot;&quot; style=&quot;endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;&quot; parent=&quot;1&quot; source=&quot;1jkrQc-gWC2C8GfhcnoL-37&quot; target=&quot;gc1oklfvDwFeD3-8zKts-55&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;916&quot; y=&quot;781&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;593&quot; y=&quot;399&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-39&quot; value=&quot;Shotsbord&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=default;gradientColor=none;strokeColor=none;fontSize=16;fontFamily=lmodern;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;43&quot; y=&quot;124&quot; width=&quot;83&quot; height=&quot;18&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-40&quot; value=&quot;&quot; style=&quot;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;&quot; parent=&quot;1&quot; source=&quot;1jkrQc-gWC2C8GfhcnoL-39&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;361&quot; y=&quot;441&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;115&quot; y=&quot;220&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-41&quot; value=&quot;&quot; style=&quot;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=south;size=9;rounded=1;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;-57&quot; y=&quot;297&quot; width=&quot;106&quot; height=&quot;74&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-45&quot; value=&quot;Chips&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=default;gradientColor=none;strokeColor=none;fontSize=16;fontFamily=lmodern;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;93&quot; y=&quot;296&quot; width=&quot;83&quot; height=&quot;18&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-46&quot; value=&quot;&quot; style=&quot;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.378;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;&quot; parent=&quot;1&quot; source=&quot;1jkrQc-gWC2C8GfhcnoL-45&quot; target=&quot;1jkrQc-gWC2C8GfhcnoL-41&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;230&quot; y=&quot;559&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;-16&quot; y=&quot;338&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-47&quot; value=&quot;Brætspil&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=default;gradientColor=none;strokeColor=none;fontSize=16;fontFamily=lmodern;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;112&quot; y=&quot;362&quot; width=&quot;83&quot; height=&quot;18&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-48&quot; value=&quot;&quot; style=&quot;endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;&quot; parent=&quot;1&quot; source=&quot;1jkrQc-gWC2C8GfhcnoL-47&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;116&quot; y=&quot;371&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;81&quot; y=&quot;403&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-49&quot; value=&quot;&quot; style=&quot;whiteSpace=wrap;html=1;aspect=fixed;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;207&quot; y=&quot;163&quot; width=&quot;58&quot; height=&quot;58&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-50&quot; value=&quot;Opvaskebakke til plastkopper&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=default;gradientColor=none;strokeColor=none;fontSize=16;fontFamily=lmodern;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;78&quot; y=&quot;51&quot; width=&quot;110&quot; height=&quot;48&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-51&quot; value=&quot;&quot; style=&quot;endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;&quot; parent=&quot;1&quot; source=&quot;1jkrQc-gWC2C8GfhcnoL-50&quot; target=&quot;1jkrQc-gWC2C8GfhcnoL-49&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;202&quot; y=&quot;134&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;154&quot; y=&quot;134&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-52&quot; value=&quot;&quot; style=&quot;endArrow=none;html=1;rounded=0;strokeWidth=2;jumpSize=6;&quot; parent=&quot;1&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;-101&quot; y=&quot;229.5&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;2&quot; y=&quot;229.5&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-53&quot; value=&quot;&quot; style=&quot;endArrow=none;html=1;rounded=0;strokeWidth=2;jumpSize=6;&quot; parent=&quot;1&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;-101&quot; y=&quot;252.5&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;-101&quot; y=&quot;207.5&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-54&quot; value=&quot;&quot; style=&quot;endArrow=none;html=1;rounded=0;strokeWidth=2;jumpSize=6;&quot; parent=&quot;1&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;2&quot; y=&quot;252.5&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;2&quot; y=&quot;207.5&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-55&quot; value=&quot;&quot; style=&quot;endArrow=none;html=1;rounded=0;strokeWidth=2;jumpSize=6;&quot; parent=&quot;1&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;-101&quot; y=&quot;214&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;3&quot; y=&quot;214&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-56&quot; value=&quot;&quot; style=&quot;endArrow=none;html=1;rounded=0;strokeWidth=2;jumpSize=6;&quot; parent=&quot;1&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;-102&quot; y=&quot;245&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;2&quot; y=&quot;245&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-57&quot; value=&quot;Garderobestativ&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=default;gradientColor=none;strokeColor=none;fontSize=16;fontFamily=lmodern;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;-115&quot; y=&quot;124&quot; width=&quot;121&quot; height=&quot;18&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-58&quot; value=&quot;&quot; style=&quot;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;&quot; parent=&quot;1&quot; source=&quot;1jkrQc-gWC2C8GfhcnoL-57&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;210&quot; y=&quot;442&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;-50&quot; y=&quot;212&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-59&quot; value=&quot;Højborde&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=default;gradientColor=none;strokeColor=none;fontSize=16;fontFamily=lmodern;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;405&quot; y=&quot;-20&quot; width=&quot;83&quot; height=&quot;18&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;1jkrQc-gWC2C8GfhcnoL-60&quot; value=&quot;&quot; style=&quot;endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;&quot; parent=&quot;1&quot; source=&quot;1jkrQc-gWC2C8GfhcnoL-59&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;724&quot; y=&quot;346&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;561&quot; y=&quot;22&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;WAKzNs12OJYYZ-WBTaYJ-13&quot; value=&quot;&quot; style=&quot;rounded=0;whiteSpace=wrap;html=1;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;296&quot; y=&quot;372.5&quot; width=&quot;64&quot; height=&quot;66&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;WAKzNs12OJYYZ-WBTaYJ-18&quot; value=&quot;&quot; style=&quot;ellipse;whiteSpace=wrap;html=1;aspect=fixed;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;319.25&quot; y=&quot;396.75&quot; width=&quot;17.5&quot; height=&quot;17.5&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;WAKzNs12OJYYZ-WBTaYJ-19&quot; value=&quot;&quot; style=&quot;rounded=0;whiteSpace=wrap;html=1;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;-31.95&quot; y=&quot;408&quot; width=&quot;109.95&quot; height=&quot;147&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;WAKzNs12OJYYZ-WBTaYJ-21&quot; value=&quot;&quot; style=&quot;group&quot; vertex=&quot;1&quot; connectable=&quot;0&quot; parent=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;589&quot; y=&quot;-78&quot; width=&quot;69&quot; height=&quot;220&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;WAKzNs12OJYYZ-WBTaYJ-22&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.office_chair;shadow=0;direction=north;&quot; vertex=&quot;1&quot; parent=&quot;WAKzNs12OJYYZ-WBTaYJ-21&quot;&gt;&#10;          &lt;mxGeometry x=&quot;-17&quot; y=&quot;90&quot; width=&quot;43&quot; height=&quot;40&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;WAKzNs12OJYYZ-WBTaYJ-23&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.office_chair;shadow=0;direction=south&quot; vertex=&quot;1&quot; parent=&quot;WAKzNs12OJYYZ-WBTaYJ-21&quot;&gt;&#10;          &lt;mxGeometry x=&quot;26&quot; y=&quot;20&quot; width=&quot;43&quot; height=&quot;40&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;WAKzNs12OJYYZ-WBTaYJ-24&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.office_chair;shadow=0;direction=south&quot; vertex=&quot;1&quot; parent=&quot;WAKzNs12OJYYZ-WBTaYJ-21&quot;&gt;&#10;          &lt;mxGeometry x=&quot;26&quot; y=&quot;90&quot; width=&quot;43&quot; height=&quot;40&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;WAKzNs12OJYYZ-WBTaYJ-25&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.office_chair;shadow=0;direction=south&quot; vertex=&quot;1&quot; parent=&quot;WAKzNs12OJYYZ-WBTaYJ-21&quot;&gt;&#10;          &lt;mxGeometry x=&quot;26&quot; y=&quot;160&quot; width=&quot;43&quot; height=&quot;40&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;WAKzNs12OJYYZ-WBTaYJ-27&quot; value=&quot;&quot; style=&quot;verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.office_chair;shadow=0;direction=north;&quot; vertex=&quot;1&quot; parent=&quot;WAKzNs12OJYYZ-WBTaYJ-21&quot;&gt;&#10;          &lt;mxGeometry x=&quot;-17&quot; y=&quot;20&quot; width=&quot;43&quot; height=&quot;40&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;WAKzNs12OJYYZ-WBTaYJ-26&quot; value=&quot;&quot; style=&quot;shape=rect;shadow=0;html=1;direction=south;&quot; vertex=&quot;1&quot; parent=&quot;WAKzNs12OJYYZ-WBTaYJ-21&quot;&gt;&#10;          &lt;mxGeometry width=&quot;55&quot; height=&quot;220&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;WAKzNs12OJYYZ-WBTaYJ-29&quot; value=&quot;Pantkasse&quot; style=&quot;text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=default;gradientColor=none;strokeColor=none;fontSize=16;fontFamily=lmodern;&quot; vertex=&quot;1&quot; parent=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;265&quot; y=&quot;305&quot; width=&quot;83&quot; height=&quot;18&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;WAKzNs12OJYYZ-WBTaYJ-30&quot; value=&quot;&quot; style=&quot;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.176;entryY=-0.036;entryDx=0;entryDy=0;entryPerimeter=0;&quot; edge=&quot;1&quot; parent=&quot;1&quot; source=&quot;WAKzNs12OJYYZ-WBTaYJ-29&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;363&quot; y=&quot;368&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;315&quot; y=&quot;368&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;      &lt;/root&gt;&#10;    &lt;/mxGraphModel&gt;&#10;  &lt;/diagram&gt;&#10;&lt;/mxfile&gt;&#10;"
    id="svg190"
-   sodipodi:docname="baromraadet.svg"
+   sodipodi:docname="bar-area.svg"
    inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
-   inkscape:export-filename="baromraadet.pdf"
+   inkscape:export-filename="bar-area.pdf"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -26,9 +26,9 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
-     inkscape:zoom="1.0127232"
-     inkscape:cx="429.53494"
-     inkscape:cy="443.85277"
+     inkscape:zoom="0.80625732"
+     inkscape:cx="493.01878"
+     inkscape:cy="356.58591"
      inkscape:window-width="1472"
      inkscape:window-height="920"
      inkscape:window-x="0"
@@ -51,28 +51,32 @@
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path1" />
+     id="path1"
+     style="fill:none" />
   <path
      d="m 722.77,266.33 c 0.31,-0.82 1.31,-1.27 2.24,-1 0.93,0.28 1.43,1.17 1.12,2 -2.43,9.85 -2.43,20.05 0,29.9 -0.18,0.62 -0.7,1.11 -1.38,1.31 -0.68,0.21 -1.42,0.08 -1.98,-0.32 -2.77,-10.48 -2.77,-21.4 0,-31.89"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path2" />
+     id="path2"
+     style="fill:none" />
   <path
      d="m 728.28,185.56 24.08,-2.99 c 3.53,-0.57 7.08,0.99 9.02,3.98 1.62,10.24 1.62,20.66 0,30.9 -1.94,2.99 -5.49,4.55 -9.02,3.98 l -24.08,-2.99 c -2.67,-0.57 -4.72,-3.42 -5.02,-6.97 v -18.94 c 0.3,-3.55 2.35,-6.4 5.02,-6.97 z"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path3" />
+     id="path3"
+     style="fill:none" />
   <path
      d="m 722.77,186.33 c 0.31,-0.82 1.31,-1.27 2.24,-1 0.93,0.28 1.43,1.17 1.12,2 -2.43,9.85 -2.43,20.05 0,29.9 -0.18,0.62 -0.7,1.11 -1.38,1.31 -0.68,0.21 -1.42,0.08 -1.98,-0.32 -2.77,-10.48 -2.77,-21.4 0,-31.89"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path4" />
+     id="path4"
+     style="fill:none" />
   <rect
      x="290"
      y="-10"
@@ -122,6 +126,28 @@
      pointer-events="all"
      id="rect13"
      style="fill:none" />
+  <rect
+     x="-147.17079"
+     y="-412.56958"
+     width="77.09861"
+     height="67.514816"
+     fill="#ffffff"
+     stroke="#000000"
+     transform="scale(-1)"
+     pointer-events="all"
+     id="rect13-7"
+     style="fill:none;stroke-width:0.95063" />
+  <rect
+     x="-146.8535"
+     y="-484.36981"
+     width="77.094627"
+     height="68.085106"
+     fill="#ffffff"
+     stroke="#000000"
+     transform="scale(-1)"
+     pointer-events="all"
+     id="rect13-7-7"
+     style="fill:none;stroke-width:0.954612" />
   <path
      d="m 358,550 v -80 h 80 v 80 z m 10,-70 v 60 h 60 v -60 z"
      fill="#000000"
@@ -146,35 +172,40 @@
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path20" />
+     id="path20"
+     style="fill:none" />
   <path
      d="m 1032.23,79.67 c -0.31,0.82 -1.31,1.27 -2.24,1 -0.93,-0.28 -1.43,-1.17 -1.12,-2 2.43,-9.85 2.43,-20.05 0,-29.9 0.18,-0.62 0.7,-1.11 1.38,-1.31 0.68,-0.21 1.42,-0.08 1.98,0.32 2.77,10.48 2.77,21.4 0,31.89"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path21" />
+     id="path21"
+     style="fill:none" />
   <path
      d="m 917.28,47.56 24.08,-2.99 c 3.53,-0.57 7.08,0.99 9.02,3.98 1.62,10.24 1.62,20.66 0,30.9 -1.94,2.99 -5.49,4.55 -9.02,3.98 l -24.08,-2.99 c -2.67,-0.57 -4.72,-3.42 -5.02,-6.97 V 54.53 c 0.3,-3.55 2.35,-6.4 5.02,-6.97 z"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path22" />
+     id="path22"
+     style="fill:none" />
   <path
      d="m 911.77,48.33 c 0.31,-0.82 1.31,-1.27 2.24,-1 0.93,0.28 1.43,1.17 1.12,2 -2.43,9.85 -2.43,20.05 0,29.9 -0.18,0.62 -0.7,1.11 -1.38,1.31 -0.68,0.21 -1.42,0.08 -1.98,-0.32 -2.77,-10.48 -2.77,-21.4 0,-31.89"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path23" />
+     id="path23"
+     style="fill:none" />
   <path
      d="m 1026.72,150.44 -24.08,2.99 c -3.53,0.57 -7.08,-0.99 -9.02,-3.98 -1.62,-10.24 -1.62,-20.66 0,-30.9 1.94,-2.99 5.49,-4.55 9.02,-3.98 l 24.08,2.99 c 2.67,0.57 4.72,3.42 5.02,6.97 v 18.94 c -0.3,3.55 -2.35,6.4 -5.02,6.97 z"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path24" />
+     id="path24"
+     style="fill:none" />
   <path
      d="m 446.63047,463.19725 c 0,0 0,0 0,0 m 0,0 c 0,0 0,0 0,0 m 11.32,0 c -3.7,-3.01 -4.08,-5.67 -11.32,-11.31 m 11.32,11.31 c -4.07,-3.32 -7.38,-6.73 -11.32,-11.31 m 22.63,11.31 c -6.5,-6.7 -13.54,-11.96 -22.63,-22.62 m 22.63,22.62 c -6.27,-7.06 -13.61,-14.23 -22.63,-22.62 m 33.95,22.62 c -12.3,-12.17 -25.63,-25.69 -33.95,-33.94 m 33.95,33.94 c -6.49,-7.62 -14.72,-13.6 -33.95,-33.94 m 45.26,33.94 c -15.89,-16.55 -33.16,-34.72 -45.26,-45.25 m 45.26,45.25 c -11.48,-11.51 -24.25,-24.95 -45.26,-45.25 m 56.57,45.25 c -22,-21.36 -41.86,-42.18 -56.57,-56.56 m 56.57,56.56 c -13.15,-12.17 -25.26,-25.45 -56.57,-56.56 m 67.89,56.56 c -16.7,-16.23 -30.84,-31.91 -67.89,-67.88 m 67.89,67.88 c -14.91,-13.92 -27.71,-28.25 -67.89,-67.88 m 79.2,67.88 c -23.89,-25.41 -49.73,-47.52 -79.2,-79.19 m 79.2,79.19 c -31.23,-30.98 -61.12,-62.68 -79.2,-79.19 m 90.51,79.19 c -30.87,-28.34 -58.99,-59.73 -90.51,-90.51 m 90.51,90.51 c -30.57,-30.26 -60.65,-60.15 -90.51,-90.51 m 101.83,90.51 c -33.98,-33.57 -69.75,-70.56 -101.83,-101.82 m 101.83,101.82 c -36.95,-36.85 -73.76,-72.76 -101.83,-101.82 m 113.14,101.82 c -23.25,-26.45 -50.01,-50.44 -111.72,-111.72 m 111.72,111.72 c -43.19,-41.84 -86.08,-85.7 -111.72,-111.72 m 123.04,111.72 c -42.7,-42.79 -85.76,-88.8 -111.73,-111.72 m 111.73,111.72 c -33.08,-31.68 -62.8,-61.88 -111.73,-111.72 m 123.04,111.72 c -35.03,-35.17 -65.92,-68.59 -111.72,-111.72 m 111.72,111.72 c -28.59,-29.72 -56.3,-57.87 -111.72,-111.72 m 123.03,111.72 c -41.29,-42.14 -85.03,-82.49 -111.72,-111.72 m 111.72,111.72 c -28.66,-28.17 -55.8,-54.69 -111.72,-111.72 m 123.04,111.72 c -32.26,-31.15 -62.2,-63.4 -111.73,-111.72 m 111.73,111.72 c -37.97,-39.66 -78.92,-80.26 -111.73,-111.72 m 123.04,111.72 c -35.59,-34.5 -74.1,-74.29 -111.72,-111.72 m 111.72,111.72 c -38.69,-37.78 -75.42,-73.78 -111.72,-111.72 m 123.03,111.72 c -29.11,-29.28 -55.54,-55.38 -111.72,-111.72 m 111.72,111.72 c -30.32,-30.66 -60.62,-61.01 -111.72,-111.72 m 123.04,111.72 c -30.45,-27.83 -58.28,-55.78 -111.73,-111.72 m 111.73,111.72 c -35.38,-36.26 -71.36,-71.8 -111.73,-111.72 m 123.04,111.72 c -26.94,-24.93 -48.89,-48.65 -111.72,-111.72 m 111.72,111.72 c -35,-35.31 -69.55,-68.93 -111.72,-111.72 m 120.21,108.9 c -33.51,-36.06 -70.24,-69.04 -108.9,-108.9 m 108.9,108.9 c -37.04,-36.02 -74.87,-73.53 -108.9,-108.9 m 108.9,97.58 c -20.15,-21.19 -38.56,-39.3 -97.58,-97.58 m 97.58,97.58 c -32.31,-32.1 -65.03,-66.99 -97.58,-97.58 m 97.58,86.27 c -23,-22.41 -41.15,-41.34 -86.27,-86.27 m 86.27,86.27 c -23.26,-23.17 -48.54,-47.53 -86.27,-86.27 m 86.27,74.95 c -26.41,-26.82 -48.87,-49.89 -74.96,-74.95 m 74.96,74.95 c -26.3,-26.21 -52.3,-52.96 -74.96,-74.95 m 74.96,63.64 c -20.9,-18.39 -37.2,-35.53 -63.64,-63.64 m 63.64,63.64 c -23.67,-22 -46.61,-46.16 -63.64,-63.64 m 63.64,52.33 c -17.66,-15.63 -34.02,-31.61 -52.33,-52.33 m 52.33,52.33 c -14.76,-17.33 -31.3,-32.15 -52.33,-52.33 m 52.33,41.01 c -13,-11.01 -24.4,-25.97 -41.02,-41.01 m 41.02,41.01 c -15.41,-15.06 -29.48,-28.62 -41.02,-41.01 m 41.02,29.7 c -12.06,-11.17 -24.02,-22.97 -29.7,-29.7 m 29.7,29.7 c -9.41,-8.79 -16.34,-17.9 -29.7,-29.7 m 29.7,18.39 c -4.02,-3.21 -9.98,-9.24 -18.39,-18.39 m 18.39,18.39 c -6.2,-6.57 -13.36,-13.1 -18.39,-18.39 m 18.39,7.07 c -2.64,-2.04 -5.32,-4.93 -7.07,-7.07 m 7.07,7.07 c -2.76,-1.99 -4.48,-4.65 -7.07,-7.07"
      fill="none"
@@ -228,56 +259,64 @@
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path74" />
+     id="path74"
+     style="fill:none" />
   <path
      d="m 1032.23,239.67 c -0.31,0.82 -1.31,1.27 -2.24,1 -0.93,-0.28 -1.43,-1.17 -1.12,-2 2.43,-9.85 2.43,-20.05 0,-29.9 0.18,-0.62 0.7,-1.11 1.38,-1.31 0.68,-0.21 1.42,-0.08 1.98,0.32 2.77,10.48 2.77,21.4 0,31.89"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path75" />
+     id="path75"
+     style="fill:none" />
   <path
      d="m 917.28,207.56 24.08,-2.99 c 3.53,-0.57 7.08,0.99 9.02,3.98 1.62,10.24 1.62,20.66 0,30.9 -1.94,2.99 -5.49,4.55 -9.02,3.98 l -24.08,-2.99 c -2.67,-0.57 -4.72,-3.42 -5.02,-6.97 v -18.94 c 0.3,-3.55 2.35,-6.4 5.02,-6.97 z"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path76" />
+     id="path76"
+     style="fill:none" />
   <path
      d="m 911.77,208.33 c 0.31,-0.82 1.31,-1.27 2.24,-1 0.93,0.28 1.43,1.17 1.12,2 -2.43,9.85 -2.43,20.05 0,29.9 -0.18,0.62 -0.7,1.11 -1.38,1.31 -0.68,0.21 -1.42,0.08 -1.98,-0.32 -2.77,-10.48 -2.77,-21.4 0,-31.89"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path77" />
+     id="path77"
+     style="fill:none" />
   <path
      d="m 1026.72,310.44 -24.08,2.99 c -3.53,0.57 -7.08,-0.99 -9.02,-3.98 -1.62,-10.24 -1.62,-20.66 0,-30.9 1.94,-2.99 5.49,-4.55 9.02,-3.98 l 24.08,2.99 c 2.67,0.57 4.72,3.42 5.02,6.97 v 18.94 c -0.3,3.55 -2.35,6.4 -5.02,6.97 z"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path78" />
+     id="path78"
+     style="fill:none" />
   <path
      d="m 1032.23,309.67 c -0.31,0.82 -1.31,1.27 -2.24,1 -0.93,-0.28 -1.43,-1.17 -1.12,-2 2.43,-9.85 2.43,-20.05 0,-29.9 0.18,-0.62 0.7,-1.11 1.38,-1.31 0.68,-0.21 1.42,-0.08 1.98,0.32 2.77,10.48 2.77,21.4 0,31.89"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path79" />
+     id="path79"
+     style="fill:none" />
   <path
      d="m 917.28,277.56 24.08,-2.99 c 3.53,-0.57 7.08,0.99 9.02,3.98 1.62,10.24 1.62,20.66 0,30.9 -1.94,2.99 -5.49,4.55 -9.02,3.98 l -24.08,-2.99 c -2.67,-0.57 -4.72,-3.42 -5.02,-6.97 v -18.94 c 0.3,-3.55 2.35,-6.4 5.02,-6.97 z"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path80" />
+     id="path80"
+     style="fill:none" />
   <path
      d="m 911.77,278.33 c 0.31,-0.82 1.31,-1.27 2.24,-1 0.93,0.28 1.43,1.17 1.12,2 -2.43,9.85 -2.43,20.05 0,29.9 -0.18,0.62 -0.7,1.11 -1.38,1.31 -0.68,0.21 -1.42,0.08 -1.98,-0.32 -2.77,-10.48 -2.77,-21.4 0,-31.89"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path81" />
+     id="path81"
+     style="fill:none" />
   <rect
      x="184"
      y="-1022"
@@ -287,7 +326,8 @@
      stroke="#000000"
      transform="rotate(90)"
      pointer-events="all"
-     id="rect82" />
+     id="rect82"
+     style="fill:#fffffe;fill-opacity:1" />
   <path
      d="m 1010,550 v -80 h 80 v 80 z m 10,-70 v 60 h 60 v -60 z"
      fill="#000000"
@@ -304,7 +344,7 @@
        sodipodi:role="line"
        id="tspan192-0"
        x="543.49371"
-       y="299.67044">Ståmåtte</tspan></text>
+       y="299.67044">Standing mat</tspan></text>
   <path
      d="m 497.75,584 22.08,-38.48"
      fill="none"
@@ -370,6 +410,42 @@
      id="path115"
      style="stroke-width:1;stroke-dasharray:none" />
   <path
+     d="m 121.68739,538.33714 v -27 q 0,-10 9.96,-9.15 l 86.08,7.3 q 9.96,0.85 9.96,10.85 v 36 q 0,10 -9.96,10.85 l -86.08,7.3 q -9.96,0.85 -9.96,-9.15 z"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-miterlimit="10"
+     pointer-events="all"
+     id="path117"
+     style="fill:none" />
+  <path
+     d="m 272.91489,508.92716 -38.93,13.4"
+     fill="none"
+     stroke="#000000"
+     stroke-miterlimit="10"
+     pointer-events="stroke"
+     id="path123" />
+  <path
+     d="m 229.01489,524.03716 5.48,-5.59 -0.51,3.88 2.79,2.74 z"
+     fill="#000000"
+     stroke="#000000"
+     stroke-miterlimit="10"
+     pointer-events="all"
+     id="path124" />
+  <path
+     d="m 291.91489,579.42716 -25.89,19.21"
+     fill="none"
+     stroke="#000000"
+     stroke-miterlimit="10"
+     pointer-events="stroke"
+     id="path129" />
+  <path
+     d="m 261.81489,601.75716 3.53,-6.98 0.68,3.86 3.5,1.76 z"
+     fill="#000000"
+     stroke="#000000"
+     stroke-miterlimit="10"
+     pointer-events="all"
+     id="path130" />
+  <path
      d="m 615.25,98 87.58,22.42"
      fill="none"
      stroke="#000000"
@@ -382,7 +458,8 @@
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path160" />
+     id="path160"
+     style="fill:none" />
   <g
      id="g1"
      transform="translate(278.65556,-2.3666956)">
@@ -406,76 +483,96 @@
        r="8.75"
        style="fill:none" />
   </g>
+  <rect
+     x="173.68028"
+     y="593.86273"
+     width="84.296616"
+     height="147.12402"
+     fill="#ffffff"
+     stroke="#000000"
+     pointer-events="all"
+     id="rect165"
+     style="fill:none;stroke-width:0.875973" />
   <path
      d="m 728.28,115.56 24.08,-2.99 c 3.53,-0.57 7.08,0.99 9.02,3.98 1.62,10.24 1.62,20.66 0,30.9 -1.94,2.99 -5.49,4.55 -9.02,3.98 l -24.08,-2.99 c -2.67,-0.57 -4.72,-3.42 -5.02,-6.97 v -18.94 c 0.3,-3.55 2.35,-6.4 5.02,-6.97 z"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path168" />
+     id="path168"
+     style="fill:none" />
   <path
      d="m 722.77,116.33 c 0.31,-0.82 1.31,-1.27 2.24,-1 0.93,0.28 1.43,1.17 1.12,2 -2.43,9.85 -2.43,20.05 0,29.9 -0.18,0.62 -0.7,1.11 -1.38,1.31 -0.68,0.21 -1.42,0.08 -1.98,-0.32 -2.77,-10.48 -2.77,-21.4 0,-31.89"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path169" />
+     id="path169"
+     style="fill:none" />
   <path
      d="m 797.72,78.44 -24.08,2.99 c -3.53,0.57 -7.08,-0.99 -9.02,-3.98 -1.62,-10.24 -1.62,-20.66 0,-30.9 1.94,-2.99 5.49,-4.55 9.02,-3.98 l 24.08,2.99 c 2.67,0.57 4.72,3.42 5.02,6.97 v 18.94 c -0.3,3.55 -2.35,6.4 -5.02,6.97 z"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path170" />
+     id="path170"
+     style="fill:none" />
   <path
      d="m 803.23,77.67 c -0.31,0.82 -1.31,1.27 -2.24,1 -0.93,-0.28 -1.43,-1.17 -1.12,-2 2.43,-9.85 2.43,-20.05 0,-29.9 0.18,-0.62 0.7,-1.11 1.38,-1.31 0.68,-0.21 1.42,-0.08 1.98,0.32 2.77,10.48 2.77,21.4 0,31.89"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path171" />
+     id="path171"
+     style="fill:none" />
   <path
      d="m 797.72,148.44 -24.08,2.99 c -3.53,0.57 -7.08,-0.99 -9.02,-3.98 -1.62,-10.24 -1.62,-20.66 0,-30.9 1.94,-2.99 5.49,-4.55 9.02,-3.98 l 24.08,2.99 c 2.67,0.57 4.72,3.42 5.02,6.97 v 18.94 c -0.3,3.55 -2.35,6.4 -5.02,6.97 z"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path172" />
+     id="path172"
+     style="fill:none" />
   <path
      d="m 803.23,147.67 c -0.31,0.82 -1.31,1.27 -2.24,1 -0.93,-0.28 -1.43,-1.17 -1.12,-2 2.43,-9.85 2.43,-20.05 0,-29.9 0.18,-0.62 0.7,-1.11 1.38,-1.31 0.68,-0.21 1.42,-0.08 1.98,0.32 2.77,10.48 2.77,21.4 0,31.89"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path173" />
+     id="path173"
+     style="fill:none" />
   <path
      d="m 797.72,218.44 -24.08,2.99 c -3.53,0.57 -7.08,-0.99 -9.02,-3.98 -1.62,-10.24 -1.62,-20.66 0,-30.9 1.94,-2.99 5.49,-4.55 9.02,-3.98 l 24.08,2.99 c 2.67,0.57 4.72,3.42 5.02,6.97 v 18.94 c -0.3,3.55 -2.35,6.4 -5.02,6.97 z"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path174" />
+     id="path174"
+     style="fill:none" />
   <path
      d="m 803.23,217.67 c -0.31,0.82 -1.31,1.27 -2.24,1 -0.93,-0.28 -1.43,-1.17 -1.12,-2 2.43,-9.85 2.43,-20.05 0,-29.9 0.18,-0.62 0.7,-1.11 1.38,-1.31 0.68,-0.21 1.42,-0.08 1.98,0.32 2.77,10.48 2.77,21.4 0,31.89"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path175" />
+     id="path175"
+     style="fill:none" />
   <path
      d="m 728.28,45.56 24.08,-2.99 c 3.53,-0.57 7.08,0.99 9.02,3.98 1.62,10.24 1.62,20.66 0,30.9 -1.94,2.99 -5.49,4.55 -9.02,3.98 l -24.08,-2.99 c -2.67,-0.57 -4.72,-3.42 -5.02,-6.97 V 52.53 c 0.3,-3.55 2.35,-6.4 5.02,-6.97 z"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path176" />
+     id="path176"
+     style="fill:none" />
   <path
      d="m 722.77,46.33 c 0.31,-0.82 1.31,-1.27 2.24,-1 0.93,0.28 1.43,1.17 1.12,2 -2.43,9.85 -2.43,20.05 0,29.9 -0.18,0.62 -0.7,1.11 -1.38,1.31 -0.68,0.21 -1.42,0.08 -1.98,-0.32 -2.77,-10.48 -2.77,-21.4 0,-31.89"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path177" />
+     id="path177"
+     style="fill:none" />
   <rect
      x="22"
      y="-792"
@@ -485,7 +582,8 @@
      stroke="#000000"
      transform="rotate(90)"
      pointer-events="all"
-     id="rect178" />
+     id="rect178"
+     style="fill:#fffffe;fill-opacity:1" />
   <path
      d="m 791.98483,498.95759 26.15072,1.35826"
      fill="none"
@@ -510,7 +608,7 @@
        sodipodi:role="line"
        id="tspan192"
        x="584.91296"
-       y="94.530617">Højborde</tspan></text>
+       y="94.530617">High tables</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.0755906"
@@ -521,7 +619,61 @@
        id="tspan192-9"
        x="893.49628"
        y="504.29953"
-       style="text-align:start;text-anchor:start">Pantkasse</tspan></text>
+       style="text-align:start;text-anchor:start">Pant box</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.0755906"
+     x="294.69437"
+     y="507.39578"
+     id="text192-4"><tspan
+       sodipodi:role="line"
+       id="tspan192-05"
+       x="294.69437"
+       y="507.39578">Chips</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.0755906"
+     x="324.63403"
+     y="576.17859"
+     id="text192-8"><tspan
+       sodipodi:role="line"
+       id="tspan192-4"
+       x="324.63403"
+       y="576.17859">Board game cart</tspan></text>
+  <path
+     d="m 182.95072,422.27134 -25.89,19.21"
+     fill="none"
+     stroke="#000000"
+     stroke-miterlimit="10"
+     pointer-events="stroke"
+     id="path129-4" />
+  <path
+     d="m 152.85072,444.60134 3.53,-6.98 0.68,3.86 3.5,1.76 z"
+     fill="#000000"
+     stroke="#000000"
+     stroke-miterlimit="10"
+     pointer-events="all"
+     id="path130-1" />
+  <rect
+     x="66.368446"
+     y="341.35089"
+     width="84.296616"
+     height="147.12402"
+     fill="#ffffff"
+     stroke="#000000"
+     pointer-events="all"
+     id="rect165-8"
+     style="fill:none;stroke-width:0.875973" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.0755906"
+     x="214.52776"
+     y="420.47665"
+     id="text192-8-8"><tspan
+       sodipodi:role="line"
+       id="tspan192-4-3"
+       x="214.52776"
+       y="420.47665">Dish rack</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.0755906"
@@ -531,7 +683,7 @@
        sodipodi:role="line"
        id="tspan192-5"
        x="120.01495"
-       y="102.11246">Shot-/drinksbord</tspan></text>
+       y="102.11246">Shot/drinks cart</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.0755906"
@@ -541,7 +693,7 @@
        sodipodi:role="line"
        id="tspan192-5-5"
        x="244.82126"
-       y="32.757229">Køleskabe</tspan></text>
+       y="32.757229">Refrigerators</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.0755906"
@@ -561,28 +713,31 @@
        sodipodi:role="line"
        id="tspan192-5-1"
        x="725.77509"
-       y="586.34064">Skralespand</tspan></text>
+       y="586.34064">Trash can</tspan></text>
   <path
      d="m 1032.23,149.67 c -0.31,0.82 -1.31,1.27 -2.24,1 -0.93,-0.28 -1.43,-1.17 -1.12,-2 2.43,-9.85 2.43,-20.05 0,-29.9 0.18,-0.62 0.7,-1.11 1.38,-1.31 0.68,-0.21 1.42,-0.08 1.98,0.32 2.77,10.48 2.77,21.4 0,31.89"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path25" />
+     id="path25"
+     style="fill:none" />
   <path
      d="m 917.28,117.56 24.08,-2.99 c 3.53,-0.57 7.08,0.99 9.02,3.98 1.62,10.24 1.62,20.66 0,30.9 -1.94,2.99 -5.49,4.55 -9.02,3.98 l -24.08,-2.99 c -2.67,-0.57 -4.72,-3.42 -5.02,-6.97 v -18.94 c 0.3,-3.55 2.35,-6.4 5.02,-6.97 z"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path26" />
+     id="path26"
+     style="fill:none" />
   <path
      d="m 911.77,118.33 c 0.31,-0.82 1.31,-1.27 2.24,-1 0.93,0.28 1.43,1.17 1.12,2 -2.43,9.85 -2.43,20.05 0,29.9 -0.18,0.62 -0.7,1.11 -1.38,1.31 -0.68,0.21 -1.42,0.08 -1.98,-0.32 -2.77,-10.48 -2.77,-21.4 0,-31.89"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path27" />
+     id="path27"
+     style="fill:none" />
   <rect
      x="24"
      y="-1022"
@@ -592,49 +747,56 @@
      stroke="#000000"
      transform="rotate(90)"
      pointer-events="all"
-     id="rect28" />
+     id="rect28"
+     style="fill:#fffffe;fill-opacity:1" />
   <path
      d="m 797.72,298.44 -24.08,2.99 c -3.53,0.57 -7.08,-0.99 -9.02,-3.98 -1.62,-10.24 -1.62,-20.66 0,-30.9 1.94,-2.99 5.49,-4.55 9.02,-3.98 l 24.08,2.99 c 2.67,0.57 4.72,3.42 5.02,6.97 v 18.94 c -0.3,3.55 -2.35,6.4 -5.02,6.97 z"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path32" />
+     id="path32"
+     style="fill:none" />
   <path
      d="m 803.23,297.67 c -0.31,0.82 -1.31,1.27 -2.24,1 -0.93,-0.28 -1.43,-1.17 -1.12,-2 2.43,-9.85 2.43,-20.05 0,-29.9 0.18,-0.62 0.7,-1.11 1.38,-1.31 0.68,-0.21 1.42,-0.08 1.98,0.32 2.77,10.48 2.77,21.4 0,31.89"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path33" />
+     id="path33"
+     style="fill:none" />
   <path
      d="m 797.72,368.44 -24.08,2.99 c -3.53,0.57 -7.08,-0.99 -9.02,-3.98 -1.62,-10.24 -1.62,-20.66 0,-30.9 1.94,-2.99 5.49,-4.55 9.02,-3.98 l 24.08,2.99 c 2.67,0.57 4.72,3.42 5.02,6.97 v 18.94 c -0.3,3.55 -2.35,6.4 -5.02,6.97 z"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path34" />
+     id="path34"
+     style="fill:none" />
   <path
      d="m 803.23,367.67 c -0.31,0.82 -1.31,1.27 -2.24,1 -0.93,-0.28 -1.43,-1.17 -1.12,-2 2.43,-9.85 2.43,-20.05 0,-29.9 0.18,-0.62 0.7,-1.11 1.38,-1.31 0.68,-0.21 1.42,-0.08 1.98,0.32 2.77,10.48 2.77,21.4 0,31.89"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path35" />
+     id="path35"
+     style="fill:none" />
   <path
      d="m 797.72,438.44 -24.08,2.99 c -3.53,0.57 -7.08,-0.99 -9.02,-3.98 -1.62,-10.24 -1.62,-20.66 0,-30.9 1.94,-2.99 5.49,-4.55 9.02,-3.98 l 24.08,2.99 c 2.67,0.57 4.72,3.42 5.02,6.97 v 18.94 c -0.3,3.55 -2.35,6.4 -5.02,6.97 z"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path36" />
+     id="path36"
+     style="fill:none" />
   <path
      d="m 803.23,437.67 c -0.31,0.82 -1.31,1.27 -2.24,1 -0.93,-0.28 -1.43,-1.17 -1.12,-2 2.43,-9.85 2.43,-20.05 0,-29.9 0.18,-0.62 0.7,-1.11 1.38,-1.31 0.68,-0.21 1.42,-0.08 1.98,0.32 2.77,10.48 2.77,21.4 0,31.89"
      fill="#ffffff"
      stroke="#000000"
      stroke-miterlimit="10"
      pointer-events="all"
-     id="path37" />
+     id="path37"
+     style="fill:none" />
   <rect
      x="242"
      y="-792"
@@ -644,7 +806,8 @@
      stroke="#000000"
      transform="rotate(90)"
      pointer-events="all"
-     id="rect38" />
+     id="rect38"
+     style="fill:#fffffe;fill-opacity:1" />
   <rect
      x="445.36624"
      y="471.55798"
@@ -768,126 +931,4 @@
      stroke="none"
      pointer-events="all"
      id="rect69" />
-  <rect
-     x="-158.10872"
-     y="-420.3356"
-     width="77.09861"
-     height="67.514816"
-     fill="#ffffff"
-     stroke="#000000"
-     transform="scale(-1)"
-     pointer-events="all"
-     id="rect13-7"
-     style="fill:none;stroke-width:0.95063" />
-  <rect
-     x="-157.79143"
-     y="-492.13583"
-     width="77.094627"
-     height="68.085106"
-     fill="#ffffff"
-     stroke="#000000"
-     transform="scale(-1)"
-     pointer-events="all"
-     id="rect13-7-7"
-     style="fill:none;stroke-width:0.954612" />
-  <path
-     d="m 132.62532,546.10318 v -27 q 0,-10 9.96,-9.15 l 86.08,7.3 q 9.96,0.85 9.96,10.85 v 36 q 0,10 -9.96,10.85 l -86.08,7.3 q -9.96,0.85 -9.96,-9.15 z"
-     fill="#ffffff"
-     stroke="#000000"
-     stroke-miterlimit="10"
-     pointer-events="all"
-     id="path117"
-     style="fill:none" />
-  <path
-     d="m 283.85282,516.6932 -38.93,13.4"
-     fill="none"
-     stroke="#000000"
-     stroke-miterlimit="10"
-     pointer-events="stroke"
-     id="path123" />
-  <path
-     d="m 239.95282,531.8032 5.48,-5.59 -0.51,3.88 2.79,2.74 z"
-     fill="#000000"
-     stroke="#000000"
-     stroke-miterlimit="10"
-     pointer-events="all"
-     id="path124" />
-  <path
-     d="m 302.85282,587.1932 -25.89,19.21"
-     fill="none"
-     stroke="#000000"
-     stroke-miterlimit="10"
-     pointer-events="stroke"
-     id="path129" />
-  <path
-     d="m 272.75282,609.5232 3.53,-6.98 0.68,3.86 3.5,1.76 z"
-     fill="#000000"
-     stroke="#000000"
-     stroke-miterlimit="10"
-     pointer-events="all"
-     id="path130" />
-  <rect
-     x="184.61819"
-     y="601.62878"
-     width="84.296616"
-     height="147.12402"
-     fill="#ffffff"
-     stroke="#000000"
-     pointer-events="all"
-     id="rect165"
-     style="fill:none;stroke-width:0.875973" />
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.0755906"
-     x="305.63229"
-     y="515.1618"
-     id="text192-4"><tspan
-       sodipodi:role="line"
-       id="tspan192-05"
-       x="305.63229"
-       y="515.1618">Chips</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.0755906"
-     x="360.2579"
-     y="584.93207"
-     id="text192-8"><tspan
-       sodipodi:role="line"
-       id="tspan192-4"
-       x="360.2579"
-       y="584.93207">Brætspilsvogn</tspan></text>
-  <path
-     d="m 193.88865,430.03738 -25.89,19.21"
-     fill="none"
-     stroke="#000000"
-     stroke-miterlimit="10"
-     pointer-events="stroke"
-     id="path129-4" />
-  <path
-     d="m 163.78865,452.36738 3.53,-6.98 0.68,3.86 3.5,1.76 z"
-     fill="#000000"
-     stroke="#000000"
-     stroke-miterlimit="10"
-     pointer-events="all"
-     id="path130-1" />
-  <rect
-     x="77.306374"
-     y="349.11691"
-     width="84.296616"
-     height="147.12402"
-     fill="#ffffff"
-     stroke="#000000"
-     pointer-events="all"
-     id="rect165-8"
-     style="fill:none;stroke-width:0.875973" />
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.0755906"
-     x="258.05109"
-     y="426.26779"
-     id="text192-8-8"><tspan
-       sodipodi:role="line"
-       id="tspan192-4-3"
-       x="258.05109"
-       y="426.26779">Opvaskestativ</tspan></text>
 </svg>

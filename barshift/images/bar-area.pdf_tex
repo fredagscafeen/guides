@@ -1,6 +1,6 @@
 %% Creator: Inkscape 1.4 (e7c3feb1, 2024-10-09), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'baromraadet.pdf' (pdf, eps, ps)
+%% Accompanies image file 'bar-area.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -50,22 +50,22 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.65247241)%
+  \begin{picture}(1,0.64571344)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{baromraadet.pdf}}%
-    \put(0.47344971,0.39122746){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Ståmåtte\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{baromraadet.pdf}}%
-    \put(0.50949779,0.56976517){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Højborde\end{tabular}}}}%
-    \put(0.77806464,0.21313426){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Pantkasse\end{tabular}}}}%
-    \put(0.10488682,0.56316653){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Shot-/drinksbord\end{tabular}}}}%
-    \put(0.21350849,0.62352791){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Køleskabe\end{tabular}}}}%
-    \put(0.42795764,0.12731562){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Bar\end{tabular}}}}%
-    \put(0.6320932,0.14173208){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Skralespand\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{baromraadet.pdf}}%
-    \put(0.26643368,0.20368058){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Chips\end{tabular}}}}%
-    \put(0.31397555,0.14295799){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Brætspilsvogn\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=4]{baromraadet.pdf}}%
-    \put(0.2250227,0.281047){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Opvaskestativ\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{bar-area.pdf}}%
+    \put(0.47344971,0.3844685){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Standing mat\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{bar-area.pdf}}%
+    \put(0.50949779,0.5630062){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}High tables\end{tabular}}}}%
+    \put(0.77806464,0.20637529){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Pant box\end{tabular}}}}%
+    \put(0.25691416,0.20368056){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Chips\end{tabular}}}}%
+    \put(0.28297131,0.14381737){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Board game cart\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{bar-area.pdf}}%
+    \put(0.18714339,0.27932819){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Dish rack\end{tabular}}}}%
+    \put(0.10488682,0.55640756){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Shot/drinks cart\end{tabular}}}}%
+    \put(0.21350849,0.61676894){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Refrigerators\end{tabular}}}}%
+    \put(0.42795764,0.12055665){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Bar\end{tabular}}}}%
+    \put(0.6320932,0.13497311){\color[rgb]{0,0,0}\makebox(0,0)[t]{\smash{\begin{tabular}[t]{c}Trash can\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{bar-area.pdf}}%
   \end{picture}%
 \endgroup%
