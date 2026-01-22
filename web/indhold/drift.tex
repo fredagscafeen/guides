@@ -22,7 +22,7 @@ Men før man gør dette, sender man en mail til de andre bartendere (\allemail),
 der informerer om, at der snart bliver genereret en ny barplan, og at de skal huske at vælge hvilke 
 fredage, de ikke har mulighed for at stå i bar, på deres profil på hjemmesiden: 
 \url{https://fredagscafeen.dk/da/profile/}. 
-En template for denne mail kan ses i bilag~\ref{appendix:ny_barplan_mail_template}.
+En template for denne mail kan ses i \autoref{appendix:ny_barplan_mail_template}.
 
 Når barplanen skal genereres, kører man følgende script på serveren:
 
@@ -58,18 +58,24 @@ i træk.
 \subsection{Opdatering af Hjemmesiden}
 \label{sec:opdatering-af-hjemmesiden}
 
-Det kan ske, at der skal opdateres forskellige ting på hjemmesiden, hvis der f.eks. er fejl, men også
-hvis der skal tilføjes nye features.
-Koden til hjemmesiden ligger på GitHub: \url{https://github.com/fredagscafeen/web}.
+Det kan ske, at der skal opdateres forskellige ting på hjemmesiden, 
+hvis der f.eks. er fejl, men også hvis der skal tilføjes nye features.
+Koden til hjemmesiden ligger på GitHub:
+
+\url{https://github.com/fredagscafeen/web}.
+
 Man bestemmer selv hvilke ændringer, der skal laves, og hvordan de skal laves. Dog er det altid en god
 idé at indrage de berørte parter, hvis det er større ændringer, der skal laves. En liste over de
-aktive issues/opgaver kan ses på GitHub: \url{https://github.com/fredagscafeen/web/issues}. Markér
-opgaverne som færdige, når de er løst, og tilføj løbende flere.\\
+aktive issues/opgaver kan ses på GitHub: 
+
+\url{https://github.com/fredagscafeen/web/issues}. 
+
+Markér opgaverne som færdige, når de er løst, og tilføj løbende flere.
 
 En god måde at sætte sig ind I koden på, er at starte med at refactor. Man kan refactor en hel masse, 
 uden først at vide hvad alting er og gør. Brug principperne fra SWEA, og ellers kan bogen 
 ``Five Lines of Code'' af Christian Clausen (2021) anbefaldes. Husk også at refactor efter at 
-have tilføjet ændringer. \\
+have tilføjet ændringer.
 
 Før man pusher ændringer, er det vigtigt først at teste dem lokalt. Opsætningen heraf, 
 kan læses i repository'ets README fil.
@@ -100,8 +106,15 @@ På denne måde er det eneste man skal gøre, at omkredse teksten, der skal over
 \begin{verbatim}
 _("Hello, world!")
 \end{verbatim}
-I templates bruges \texttt{\{\% translate "Hello, world!" \%\}} eller 
-\texttt{\{\% blocktranslate \%\}}-\texttt{\{\% endblocktranslate \%\}}
+I templates bruges
+
+\begin{verbatim}
+{% translate "Hello, world!" %} 
+\end{verbatim}
+eller 
+\begin{verbatim}
+{% blocktranslate %}...{% endblocktranslate %}
+\end{verbatim}
 Husk her altid at sikre at \texttt{\{\% load i18n \%\}} er tilstede i toppen af filen!
 
 Herefter kaldes følgende kommando, for at generere oversættelsesfilerne:
@@ -126,14 +139,16 @@ Læs mere om oversættelse i Django's dokumentation,
 Det burde ikke være nødvendigt at lave ændringer til mailserveren, 
 men hvis det skulle hænde, er det nyttigt at dette er skrevet ned.
 Koden til mailserveren på hjemmesiden ligger på GitHub: \url{https://github.com/fredagscafeen/mail}.
+\vspace{0.5cm}
 
-\begin{enumerate} \color{gray}
+\color{gray}\textit{(Samme som for opdatering af hjemmesiden)}\color{black}
+\begin{enumerate}\color{gray}
     \item Pull ændringer og genstart container:
     \begin{verbatim}
 $ git pull && docker-compose pull && docker-compose restart\end{verbatim}
     \item Byg og start container:
     \begin{verbatim}
-$ docker compose up -d --build\end{verbatim} \color{black}
+$ docker compose up -d --build\end{verbatim}\color{black}
     \item Connect mailserveren til databasen i web containeren:
     \begin{verbatim}
 $ docker network connect web_default mail-app-1 \end{verbatim}
@@ -141,76 +156,40 @@ $ docker network connect web_default mail-app-1 \end{verbatim}
 
 Mailserveren er sat op med Postfix, og her er det nyttigt at kende disse kommandoer:
 
-\begin{figure}[H]
+\begin{table}[H]
     \centering
-    \begin{tabular}{l l}
-        \textbf{Beskrivelse} & \textbf{Kommando} \\
+    \begin{tabular}{l}
         \hline
-        & \\
-        \textit{Postfix} & \\
-        & \\
-        \begin{minipage}
-            {0.5\textwidth}
-            Se eller ændre Postfix config
-        \end{minipage}& 
-        \begin{minipage}
-            {0.5\textwidth}
-            \texttt{\$ sudo nano /etc/postfix/main.cf}
-        \end{minipage} \\
-        & \\
-        \begin{minipage}
-            {0.5\textwidth}
-            Genstart Postfix
-        \end{minipage}& 
-        \begin{minipage}
-            {0.5\textwidth}
-            \texttt{\$ sudo systemctl restart postfix}
-        \end{minipage} \\
-        & \\
-        \begin{minipage}
-            {0.5\textwidth}
-            Se eller ændre \texttt{transport\_maps}
-        \end{minipage}& 
-        \begin{minipage}
-            {0.5\textwidth}
-            \texttt{\$ sudo nano /etc/postfix/transport}
-        \end{minipage} \\
-        & \\
-        \begin{minipage}
-            {0.5\textwidth}
-            Få ovenstående ændringer til at træde i kraft
-        \end{minipage}& 
-        \begin{minipage}
-            {0.5\textwidth}
-            \texttt{\$ sudo postmap /etc/postfix/transport}
-        \end{minipage} \\
-        & \\
+        \\
+        \textit{Postfix} \\
+        \\
+        Se eller ændre Postfix config \\
+        \texttt{\$ sudo nano /etc/postfix/main.cf} \\
+        \\
+        Genstart Postfix \\ 
+        \texttt{\$ sudo systemctl restart postfix} \\
+        \\
+        Se eller ændre \texttt{transport\_maps} \\
+        \texttt{\$ sudo nano /etc/postfix/transport} \\
+        \\
+        Få ovenstående ændringer til at træde i kraft \\
+        \texttt{\$ sudo postmap /etc/postfix/transport} \\
+        \\
         \hline
-        & \\
-        \textit{Logs (Nyttigt til debug)} & \\
-        & \\
-        \begin{minipage}
-            {0.5\textwidth}
-            Se Postfix logs
-        \end{minipage}&
-        \begin{minipage}
-            {0.5\textwidth}
-            \texttt{\$ journalctl  -t postfix/smtpd -t postfix/smtp -n 100 --no-pager}
-        \end{minipage} \\
-        & \\
-        \begin{minipage}
-            {0.5\textwidth}
-            Se mailserver logs
-        \end{minipage}&
-        \begin{minipage}
-            {0.5\textwidth}
-            \texttt{\$ docker container logs mail-app-1}
-        \end{minipage} \\
-        & \\
+        \\
+        \textit{Logs (Nyttigt til debug)} \\
+        \\
+        Se Postfix logs \\
+        \texttt{\$ journalctl -t postfix/smtpd -t postfix/smtp -n 100 ––no-pager} \\
+        \\
+        Se mailserver logs \\
+        \texttt{\$ docker container logs mail-app-1} \\
+        \\
+        \hline
     \end{tabular}
     \caption{Postfix og Mail Kommandoer}
     \label{fig:postfix-kommandoer}
-\end{figure}
+\end{table}
 
 \subsection{Nye Bartendere}
 \label{sec:nye-bartendere}
@@ -224,77 +203,41 @@ mailinglisten (\allemail) og facebook gruppen
 
 Udover de allerede nævnte kommandoer, er der en række andre kommandoer, der kan være nyttige at kende til.
 
-\begin{figure}[H]
+\begin{table}[H]
     \centering
-    \begin{tabular}{l l}
-        \textbf{Beskrivelse} & \textbf{Kommando} \\
+    \begin{tabular}{l}
         \hline
-        & \\
-        \textit{Linux} & \\
-        & \\
-        \begin{minipage}
-            {0.5\textwidth}
-            Se indhold i mappe
-        \end{minipage}& 
-        \begin{minipage}
-            {0.5\textwidth}
-            \texttt{\$ ls}
-        \end{minipage} \\
-        & \\
-        \begin{minipage}
-            {0.5\textwidth}
-            Se nuværende sti
-        \end{minipage}& 
-        \begin{minipage}
-            {0.5\textwidth}
-            \texttt{\$ pwd}
-        \end{minipage} \\
-        & \\
-        \begin{minipage}
-            {0.5\textwidth}
-            Se størrelse på partitions
-        \end{minipage}& 
-        \begin{minipage}
-            {0.5\textwidth}
-            \texttt{\$ df -Th}
-        \end{minipage} \\
-        & \\
+        \\
+        \textit{Linux} \\
+        \\
+        Se indhold i mappe \\
+        \texttt{\$ ls} \\
+        \\
+        Se nuværende sti \\
+        \texttt{\$ pwd} \\
+        \\
+        Se størrelse på partitions \\
+        \texttt{\$ df -Th} \\
+        \\
         \hline
-        & \\
-        \textit{Docker} & \\
-        & \\
-        \begin{minipage}
-            {0.5\textwidth}
-            Se alle containers
-        \end{minipage}&
-        \begin{minipage}
-            {0.5\textwidth}
-            \texttt{\$ docker ps -a}
-        \end{minipage} \\
-        & \\
-        \begin{minipage}
-            {0.5\textwidth}
-            Slet alle ubrugte docker images og containers
-        \end{minipage}&
-        \begin{minipage}
-            {0.5\textwidth}
-            \texttt{\$ docker system prune -a}
-        \end{minipage} \\
-        & \\
+        \\
+        \textit{Docker} \\
+        \\
+        Se alle containers \\
+        \texttt{\$ docker ps -a} \\
+        \\
+        Slet alle ubrugte docker images og containers \\
+        \texttt{\$ docker system prune -a} \\
+        \\
         \hline
-        & \\
-        \textit{Git} & \\
-        & \\
-        \begin{minipage}
-            {0.5\textwidth}
-            Kør Git's Garbage Collector
-        \end{minipage}&
-        \begin{minipage}
-            {0.5\textwidth}
-            \texttt{\$ git gc}
-        \end{minipage} \\
-        & \\
+        \\
+        \textit{Git} \\
+        \\
+        Kør Git's Garbage Collector \\
+        \texttt{\$ git gc} \\
+        \\
+        \hline
     \end{tabular}
     \caption{Brugbare Kommandoer}
     \label{fig:brugbare-kommandoer}
-\end{figure}
+\end{table}

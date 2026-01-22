@@ -14,7 +14,7 @@ efter første bestyrelsesmøde.
 \begin{itemize}
     \item Tilføj den nye bestyrelse til \url{https://fredagscafeen.dk/board/}. 
     Dette kan gøres ved at kalde følgende script på serveren:
-    {\small\begin{verbatim}
+    {\scriptsize\begin{verbatim}
 $ docker-compose exec app ./manage.py new_board --start-date=YEAR-MM-DD\end{verbatim}}
     \item Tilføj de nye bestyrelsesmedlemmer til bestyrelses mailinglisten \bestmail~:\\
     {\small\url{https://fredagscafeen.dk/da/admin/mail/mailinglist/}}
@@ -56,7 +56,9 @@ Dette skal kun gøres, hvis der er valgt en ny webansvarlig.
     \item Den nye webansvarlige skal have ``Owner'' rolle i GitLab gruppen.
     \item Den nye webansvarlige tilføjes til GitHub organisationen med ``Owner'' rolle:\\
     {\small\url{https://github.com/orgs/fredagscafeen/people}}
-    \item Tilføj den nye webansvarlige til \texttt{ADMINS} i \texttt{base.py} filen i\\
-    \texttt{fredagscafeen/settings/}, så den nye webansvarlige får emails ved serverfejl:\\
-    {\small\url{https://github.com/fredagscafeen/web/blob/master/fredagscafeen/settings/base.py}}
+    \item Tilføj den nye webansvarlige til \texttt{ADMINS} i \texttt{base.py} filen i
+
+    \texttt{fredagscafeen/settings/}, så den nye webansvarlige får emails ved serverfejl:
+
+    {\scriptsize\url{https://github.com/fredagscafeen/web/blob/master/fredagscafeen/settings/base.py}}
 \end{itemize}
