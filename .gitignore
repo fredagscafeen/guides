@@ -163,7 +163,7 @@ TSWLatexianTemp*
 
 # Output
 *.pdf
-!Manual.pdf
+!pantspande.pdf
 
 # Graphics
 !gfx/**
